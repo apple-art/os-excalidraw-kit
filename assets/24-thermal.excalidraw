@@ -1,0 +1,478 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "http://127.0.0.1:8772",
+  "elements": [
+    {
+      "id": "thermal-1",
+      "type": "line",
+      "x": 119,
+      "y": 176,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0.7,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1071,
+      "version": 2,
+      "versionNonce": 1801607601,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -111
+        ],
+        [
+          5,
+          -127
+        ],
+        [
+          21,
+          -133
+        ],
+        [
+          37,
+          -127
+        ],
+        [
+          42,
+          -111
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          59,
+          17
+        ],
+        [
+          61,
+          39
+        ],
+        [
+          47,
+          60
+        ],
+        [
+          22,
+          68
+        ],
+        [
+          -3,
+          60
+        ],
+        [
+          -18,
+          40
+        ],
+        [
+          -16,
+          18
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-2",
+      "type": "line",
+      "x": 140,
+      "y": 97,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#c34848",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 9,
+      "strokeStyle": "solid",
+      "roughness": 0.7,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1142,
+      "version": 2,
+      "versionNonce": 902698463,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          114
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-3",
+      "type": "ellipse",
+      "x": 121,
+      "y": 193,
+      "width": 39,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#c34848",
+      "backgroundColor": "#fceaea",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 1213,
+      "version": 2,
+      "versionNonce": 1714289553,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "thermal-4",
+      "type": "line",
+      "x": 180,
+      "y": 83,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1284,
+      "version": 2,
+      "versionNonce": 1483604479,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-5",
+      "type": "line",
+      "x": 180,
+      "y": 115,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 1355,
+      "version": 2,
+      "versionNonce": 787112305,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-6",
+      "type": "line",
+      "x": 180,
+      "y": 147,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1426,
+      "version": 2,
+      "versionNonce": 1417374239,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-7",
+      "type": "line",
+      "x": 242,
+      "y": 151,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0.65,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a6",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1497,
+      "version": 2,
+      "versionNonce": 1390349137,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -7,
+          -12
+        ],
+        [
+          -2,
+          -25
+        ],
+        [
+          5,
+          -38
+        ],
+        [
+          -1,
+          -52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-8",
+      "type": "line",
+      "x": 281,
+      "y": 151,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0.65,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a7",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1568,
+      "version": 2,
+      "versionNonce": 384224831,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -7,
+          -12
+        ],
+        [
+          -2,
+          -25
+        ],
+        [
+          5,
+          -38
+        ],
+        [
+          -1,
+          -52
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "thermal-9",
+      "type": "text",
+      "x": 219,
+      "y": 191,
+      "width": 28.106979370117188,
+      "height": 33.75,
+      "angle": 0,
+      "strokeColor": "#c34848",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "thermal-thermal"
+      ],
+      "frameId": null,
+      "index": "a8",
+      "roundness": null,
+      "seed": 1639,
+      "version": 2,
+      "versionNonce": 1248033073,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200799,
+      "link": null,
+      "locked": false,
+      "text": "°C",
+      "fontSize": 27,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "°C",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}

@@ -1,0 +1,546 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "http://127.0.0.1:8772",
+  "elements": [
+    {
+      "id": "12-scheduler-1",
+      "type": "rectangle",
+      "x": 35,
+      "y": 30,
+      "width": 75,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f1fd",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1071,
+      "version": 2,
+      "versionNonce": 218080465,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "VDJ7qmSueprh4N7IZriWv"
+        }
+      ],
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "12-scheduler-2",
+      "type": "line",
+      "x": 72,
+      "y": 87,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#707b84",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1.6,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1142,
+      "version": 2,
+      "versionNonce": 2144767167,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          103,
+          32
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "12-scheduler-3",
+      "type": "rectangle",
+      "x": 138,
+      "y": 30,
+      "width": 75,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "#fff0df",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a2",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1213,
+      "version": 2,
+      "versionNonce": 2016731825,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "RP-718JYqlvwcFT8KDr0s"
+        }
+      ],
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "12-scheduler-4",
+      "type": "line",
+      "x": 175,
+      "y": 87,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#707b84",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1.6,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1284,
+      "version": 2,
+      "versionNonce": 2080677087,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          32
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "12-scheduler-5",
+      "type": "rectangle",
+      "x": 241,
+      "y": 30,
+      "width": 75,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#e7f1fd",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a4",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1355,
+      "version": 2,
+      "versionNonce": 700933265,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "44SFpHJ6txVJmIkjx410j"
+        }
+      ],
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "12-scheduler-6",
+      "type": "line",
+      "x": 278,
+      "y": 87,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#707b84",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1.6,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1426,
+      "version": 2,
+      "versionNonce": 1144760575,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -103,
+          32
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "12-scheduler-7",
+      "type": "line",
+      "x": 94,
+      "y": 119,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#7950a0",
+      "backgroundColor": "#f3edfa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 1497,
+      "version": 2,
+      "versionNonce": 1835969137,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          162,
+          0
+        ],
+        [
+          111,
+          49
+        ],
+        [
+          51,
+          49
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "12-scheduler-8",
+      "type": "arrow",
+      "x": 175,
+      "y": 172,
+      "width": 0,
+      "height": 22,
+      "angle": 0,
+      "strokeColor": "#7950a0",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 1568,
+      "version": 2,
+      "versionNonce": 1711026463,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0.5
+        ],
+        [
+          0,
+          21.5
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "12-scheduler-9",
+      "type": "rectangle",
+      "x": 135,
+      "y": 204,
+      "width": 80,
+      "height": 46,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "#fff0df",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "12-scheduler-component"
+      ],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1639,
+      "version": 2,
+      "versionNonce": 737293393,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "nQphgT8uPV8az4_qlqXcm"
+        }
+      ],
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "VDJ7qmSueprh4N7IZriWv",
+      "type": "text",
+      "x": 64.05000305175781,
+      "y": 38.875,
+      "width": 16.899993896484375,
+      "height": 31.25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 1790358847,
+      "version": 3,
+      "versionNonce": 2046729663,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "text": "A",
+      "fontSize": 25,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "12-scheduler-1",
+      "originalText": "A",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "RP-718JYqlvwcFT8KDr0s",
+      "type": "text",
+      "x": 165.9875030517578,
+      "y": 38.875,
+      "width": 19.024993896484375,
+      "height": 31.25,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": null,
+      "seed": 1506522463,
+      "version": 3,
+      "versionNonce": 554852785,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "text": "B",
+      "fontSize": 25,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "12-scheduler-3",
+      "originalText": "B",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "44SFpHJ6txVJmIkjx410j",
+      "type": "text",
+      "x": 270.6375045776367,
+      "y": 38.875,
+      "width": 15.724990844726562,
+      "height": 31.25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 2055975295,
+      "version": 3,
+      "versionNonce": 2030210527,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "text": "C",
+      "fontSize": 25,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "12-scheduler-5",
+      "originalText": "C",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "nQphgT8uPV8az4_qlqXcm",
+      "type": "text",
+      "x": 165.4875030517578,
+      "y": 211.375,
+      "width": 19.024993896484375,
+      "height": 31.25,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aC",
+      "roundness": null,
+      "seed": 1446455711,
+      "version": 3,
+      "versionNonce": 2023555985,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200429,
+      "link": null,
+      "locked": false,
+      "text": "B",
+      "fontSize": 25,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "12-scheduler-9",
+      "originalText": "B",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}

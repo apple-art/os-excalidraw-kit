@@ -1,0 +1,346 @@
+[
+  {
+    "id": "01-task",
+    "title": "任务卡片",
+    "description": "可运行任务卡片，用来表达进程或线程等调度对象。",
+    "category": "scheduling",
+    "tags": [
+      "任务",
+      "task",
+      "进程",
+      "就绪"
+    ],
+    "svg": "assets/01-task.svg",
+    "png": "assets/01-task.png",
+    "native": "assets/01-task.excalidraw"
+  },
+  {
+    "id": "02-cpu",
+    "title": "CPU 核心",
+    "description": "一个 CPU 执行单元，可用于单核或多核示意。",
+    "category": "system",
+    "tags": [
+      "CPU",
+      "核心",
+      "处理器"
+    ],
+    "svg": "assets/02-cpu.svg",
+    "png": "assets/02-cpu.png",
+    "native": "assets/02-cpu.excalidraw"
+  },
+  {
+    "id": "03-runqueue",
+    "title": "运行队列",
+    "description": "等待被选择的可运行任务集合；图标不限定 FIFO 策略。",
+    "category": "scheduling",
+    "tags": [
+      "队列",
+      "runqueue",
+      "就绪"
+    ],
+    "svg": "assets/03-runqueue.svg",
+    "png": "assets/03-runqueue.png",
+    "native": "assets/03-runqueue.excalidraw"
+  },
+  {
+    "id": "04-governor",
+    "title": "调频 governor",
+    "description": "调频策略的抽象图标，滑块不代表特定配置项。",
+    "category": "frequency",
+    "tags": [
+      "governor",
+      "调频",
+      "DVFS"
+    ],
+    "svg": "assets/04-governor.svg",
+    "png": "assets/04-governor.png",
+    "native": "assets/04-governor.excalidraw"
+  },
+  {
+    "id": "05-process",
+    "title": "进程与地址空间",
+    "description": "一个进程的虚拟地址空间。各区仅作组成示意，不表示真实地址顺序、大小或内存比例。",
+    "category": "system",
+    "tags": [
+      "进程",
+      "process",
+      "地址空间"
+    ],
+    "svg": "assets/05-process.svg",
+    "png": "assets/05-process.png",
+    "native": "assets/05-process.excalidraw"
+  },
+  {
+    "id": "06-thread",
+    "title": "线程与共享内存",
+    "description": "同一进程内的两个线程共享地址空间，各自保有独立栈与执行上下文；这里只突出共享与独立两部分。",
+    "category": "system",
+    "tags": [
+      "线程",
+      "thread",
+      "共享内存",
+      "栈"
+    ],
+    "svg": "assets/06-thread.svg",
+    "png": "assets/06-thread.png",
+    "native": "assets/06-thread.excalidraw"
+  },
+  {
+    "id": "07-pcb",
+    "title": "进程控制块 PCB",
+    "description": "PCB 是进程管理结构的教学抽象。PID、状态、PC 和 SP 代表常见管理与上下文信息，实际组织取决于操作系统和架构。",
+    "category": "system",
+    "tags": [
+      "PCB",
+      "进程",
+      "上下文"
+    ],
+    "svg": "assets/07-pcb.svg",
+    "png": "assets/07-pcb.png",
+    "native": "assets/07-pcb.excalidraw"
+  },
+  {
+    "id": "08-multicore",
+    "title": "多核处理器",
+    "description": "四个执行核心的图标。逻辑 CPU、物理核心与 SMT 的区别需由所在图文另行说明。",
+    "category": "system",
+    "tags": [
+      "多核",
+      "CPU",
+      "并行"
+    ],
+    "svg": "assets/08-multicore.svg",
+    "png": "assets/08-multicore.png",
+    "native": "assets/08-multicore.excalidraw"
+  },
+  {
+    "id": "09-io-device",
+    "title": "I/O 设备",
+    "description": "通用外设图标，可用于设备、输入输出或 I/O 等待的说明；不限定具体设备协议。",
+    "category": "system",
+    "tags": [
+      "I/O",
+      "设备",
+      "输入输出"
+    ],
+    "svg": "assets/09-io-device.svg",
+    "png": "assets/09-io-device.png",
+    "native": "assets/09-io-device.excalidraw"
+  },
+  {
+    "id": "10-memory",
+    "title": "内存条",
+    "description": "存储组件图标。可用于 RAM，也可按上下文改作缓存；芯片数与针脚数不代表真实硬件规格。",
+    "category": "system",
+    "tags": [
+      "内存",
+      "RAM",
+      "缓存"
+    ],
+    "svg": "assets/10-memory.svg",
+    "png": "assets/10-memory.png",
+    "native": "assets/10-memory.excalidraw"
+  },
+  {
+    "id": "11-interrupt",
+    "title": "中断 IRQ",
+    "description": "中断事件的图标。中断会触发事件处理，但并不必然引起任务切换或抢占。",
+    "category": "scheduling",
+    "tags": [
+      "IRQ",
+      "中断",
+      "事件"
+    ],
+    "svg": "assets/11-interrupt.svg",
+    "png": "assets/11-interrupt.png",
+    "native": "assets/11-interrupt.excalidraw"
+  },
+  {
+    "id": "12-scheduler",
+    "title": "调度器",
+    "description": "从可运行任务中选择下一执行任务；漏斗仅表示选择功能。",
+    "category": "scheduling",
+    "tags": [
+      "调度器",
+      "scheduler",
+      "选择"
+    ],
+    "svg": "assets/12-scheduler.svg",
+    "png": "assets/12-scheduler.png",
+    "native": "assets/12-scheduler.excalidraw"
+  },
+  {
+    "id": "13-dispatcher",
+    "title": "分派器",
+    "description": "把已选任务交给 CPU 执行的抽象图标，不展开上下文切换流程。",
+    "category": "scheduling",
+    "tags": [
+      "分派器",
+      "dispatcher",
+      "执行"
+    ],
+    "svg": "assets/13-dispatcher.svg",
+    "png": "assets/13-dispatcher.png",
+    "native": "assets/13-dispatcher.excalidraw"
+  },
+  {
+    "id": "14-clock",
+    "title": "时钟与时间片",
+    "description": "时钟或计时器组件；一个 tick 并不一定产生任务切换。",
+    "category": "scheduling",
+    "tags": [
+      "时钟",
+      "tick",
+      "时间片",
+      "计时器"
+    ],
+    "svg": "assets/14-clock.svg",
+    "png": "assets/14-clock.png",
+    "native": "assets/14-clock.excalidraw"
+  },
+  {
+    "id": "15-mutex",
+    "title": "互斥锁",
+    "description": "同一时刻最多一个持有者的互斥锁图标。",
+    "category": "scheduling",
+    "tags": [
+      "互斥锁",
+      "mutex",
+      "临界区"
+    ],
+    "svg": "assets/15-mutex.svg",
+    "png": "assets/15-mutex.png",
+    "native": "assets/15-mutex.excalidraw"
+  },
+  {
+    "id": "16-semaphore",
+    "title": "计数信号量",
+    "description": "两个可用许可的计数信号量；许可数量和语义由使用场景决定。",
+    "category": "scheduling",
+    "tags": [
+      "信号量",
+      "semaphore",
+      "许可"
+    ],
+    "svg": "assets/16-semaphore.svg",
+    "png": "assets/16-semaphore.png",
+    "native": "assets/16-semaphore.excalidraw"
+  },
+  {
+    "id": "17-priority",
+    "title": "优先级",
+    "description": "抽象优先级层级，没有规定具体数字方向。",
+    "category": "scheduling",
+    "tags": [
+      "优先级",
+      "priority",
+      "抢占"
+    ],
+    "svg": "assets/17-priority.svg",
+    "png": "assets/17-priority.png",
+    "native": "assets/17-priority.excalidraw"
+  },
+  {
+    "id": "18-affinity",
+    "title": "CPU 亲和性",
+    "description": "任务的允许 CPU 集合示例；允许集合不等于实际执行位置。",
+    "category": "scheduling",
+    "tags": [
+      "CPU",
+      "亲和性",
+      "affinity",
+      "绑定"
+    ],
+    "svg": "assets/18-affinity.svg",
+    "png": "assets/18-affinity.png",
+    "native": "assets/18-affinity.excalidraw"
+  },
+  {
+    "id": "19-migration",
+    "title": "任务迁移",
+    "description": "任务从一个 CPU 的运行队列迁到另一个；实际迁移受有效亲和性、拓扑和调度策略约束。",
+    "category": "scheduling",
+    "tags": [
+      "任务",
+      "迁移",
+      "migration",
+      "负载均衡"
+    ],
+    "svg": "assets/19-migration.svg",
+    "png": "assets/19-migration.png",
+    "native": "assets/19-migration.excalidraw"
+  },
+  {
+    "id": "20-utilization",
+    "title": "CPU 利用率",
+    "description": "CPU 忙碌程度的抽象仪表；调度器用于调频的利用率信号不一定等同于简单采样的 CPU 百分比。",
+    "category": "frequency",
+    "tags": [
+      "利用率",
+      "utilization",
+      "负载"
+    ],
+    "svg": "assets/20-utilization.svg",
+    "png": "assets/20-utilization.png",
+    "native": "assets/20-utilization.excalidraw"
+  },
+  {
+    "id": "21-frequency",
+    "title": "CPU 频率",
+    "description": "连续方波和周期 T 的抽象图标，f = 1/T；时钟频率不是实际任务性能的唯一决定因素。",
+    "category": "frequency",
+    "tags": [
+      "频率",
+      "frequency",
+      "周期",
+      "DVFS"
+    ],
+    "svg": "assets/21-frequency.svg",
+    "png": "assets/21-frequency.png",
+    "native": "assets/21-frequency.excalidraw"
+  },
+  {
+    "id": "22-cpufreq-driver",
+    "title": "CPUFreq 驱动",
+    "description": "软件与硬件接口之间的桥接图标；驱动将性能请求交给平台，实际频率还受硬件、温度和功耗限制。",
+    "category": "frequency",
+    "tags": [
+      "CPUFreq",
+      "驱动",
+      "driver"
+    ],
+    "svg": "assets/22-cpufreq-driver.svg",
+    "png": "assets/22-cpufreq-driver.png",
+    "native": "assets/22-cpufreq-driver.excalidraw"
+  },
+  {
+    "id": "23-power",
+    "title": "CPU 功耗",
+    "description": "用于功率的电源图标，W 是功率单位；能耗应另用 J 等单位表示。",
+    "category": "frequency",
+    "tags": [
+      "功耗",
+      "功率",
+      "power",
+      "电源"
+    ],
+    "svg": "assets/23-power.svg",
+    "png": "assets/23-power.png",
+    "native": "assets/23-power.excalidraw"
+  },
+  {
+    "id": "24-thermal",
+    "title": "温度与热约束",
+    "description": "温度计与热流的抽象图标；热限制的阈值与性能控制方式依具体平台而异。",
+    "category": "frequency",
+    "tags": [
+      "温度",
+      "thermal",
+      "散热",
+      "限频"
+    ],
+    "svg": "assets/24-thermal.svg",
+    "png": "assets/24-thermal.png",
+    "native": "assets/24-thermal.excalidraw"
+  }
+]

@@ -1,0 +1,2 @@
+import {drawing,C} from './shapes.js';
+export default function(){const d=drawing('task');d.group('task-card',()=>{d.box(90,44,180,160,'',C.paleBlue,C.blue,{roundness:{type:3}});d.line([[90,94],[270,94]],C.blue);d.text(132,55,'Task A',28,C.blue);d.line([[117,122],[242,122]],'#adb5bd');d.line([[117,145],[218,145]],'#adb5bd');d.add('ellipse',{x:117,y:173,width:12,height:12,backgroundColor:C.teal,strokeColor:C.teal});d.text(142,163,'ready',24,C.teal);});return {id:'01-task',title:'任务卡片',elements:d.elements};}

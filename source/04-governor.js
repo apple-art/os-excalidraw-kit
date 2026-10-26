@@ -1,0 +1,2 @@
+import {drawing,C} from './shapes.js';
+export default function(){const d=drawing('gov');d.group('governor',()=>{d.box(68,40,232,194,'','#f3edfa','#7950a0');d.text(102,57,'governor',28,'#7950a0');[116,155,194].forEach((y,i)=>{d.line([[96,y],[272,y]],'#7950a0');d.box([132,225,181][i]-7,y-11,14,22,'','#ffffff','#7950a0',{roundness:null});});});return {id:'04-governor',title:'调频 governor',elements:d.elements};}

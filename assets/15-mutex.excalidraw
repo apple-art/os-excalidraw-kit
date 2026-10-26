@@ -1,0 +1,202 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "http://127.0.0.1:8772",
+  "elements": [
+    {
+      "id": "15-mutex-1",
+      "type": "line",
+      "x": 118,
+      "y": 117,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1071,
+      "version": 2,
+      "versionNonce": 1023477855,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200528,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -31
+        ],
+        [
+          3,
+          -55
+        ],
+        [
+          13,
+          -72
+        ],
+        [
+          31,
+          -83
+        ],
+        [
+          53,
+          -86
+        ],
+        [
+          75,
+          -82
+        ],
+        [
+          93,
+          -70
+        ],
+        [
+          103,
+          -52
+        ],
+        [
+          106,
+          -30
+        ],
+        [
+          106,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "15-mutex-2",
+      "type": "rectangle",
+      "x": 91,
+      "y": 113,
+      "width": 160,
+      "height": 124,
+      "angle": 0,
+      "strokeColor": "#d16b23",
+      "backgroundColor": "#fff0df",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a1",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1142,
+      "version": 2,
+      "versionNonce": 1438216465,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200528,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "15-mutex-3",
+      "type": "ellipse",
+      "x": 158,
+      "y": 144,
+      "width": 26,
+      "height": 26,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 1213,
+      "version": 2,
+      "versionNonce": 295609471,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200528,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "15-mutex-4",
+      "type": "line",
+      "x": 171,
+      "y": 170,
+      "width": 100,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#29323c",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1284,
+      "version": 2,
+      "versionNonce": 1483417329,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793032200528,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          29
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}
