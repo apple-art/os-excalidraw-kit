@@ -13,6 +13,6 @@ for(const asset of assets){
  assert(!/<image\b/i.test(fs.readFileSync(path.join(root,asset.svg),'utf8')));
 }
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
-for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){const file=match[1];if(/^(https?:|data:)/.test(file)||file==='./')continue;assert(fs.existsSync(path.join(root,file)),file);}
+for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){const file=match[1].split(/[?#]/)[0];if(/^(https?:|data:)/.test(file)||file==='./')continue;assert(fs.existsSync(path.join(root,file)),file);}
 assert.equal(JSON.parse(fs.readFileSync(path.join(root,'assets/os-components.excalidrawlib'),'utf8')).libraryItems.length,assets.length);
 console.log(`Verified ${assets.length} components, native bindings, local resources and library.`);

@@ -8,10 +8,12 @@
   <title>OS Sketch Kit — 把操作系统，画明白。</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://apple-art.github.io/os-excalidraw-kit/">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   <link rel="preload" href="assets/fonts/hand.woff2" as="font" type="font/woff2" crossorigin>
   <script src="assets/catalog.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="assets/vendor/rough.js" defer></script>
+  <script src="sketch.js?v=2" defer></script>
 </head>
 <body>
   <a href="#library" class="skip-link">跳到组件素材</a>
@@ -41,7 +43,7 @@
       </div>
       <div class="hero-board" aria-label="任务、CPU、调频策略与时钟组件预览">
         <span class="board-pin" aria-hidden="true"></span>
-        <span class="board-kicker">a few things to think with</span>
+        <span class="board-kicker">✎ 把想法摊开来画</span>
         <div class="specimen specimen-task"><img src="assets/01-task.svg" alt="任务卡片" fetchpriority="high" width="250" height="230"><span>一个任务</span></div>
         <div class="specimen specimen-cpu"><img src="assets/02-cpu.svg" alt="CPU 核心" fetchpriority="high" width="250" height="250"><span>一颗 CPU</span></div>
         <div class="specimen specimen-governor"><img src="assets/04-governor.svg" alt="调频 governor" width="250" height="220"><span>一点控制</span></div>
@@ -73,7 +75,7 @@
         </div>
       </div>
       <div class="shell catalog-shell">
-        <div class="catalog-meta"><p id="result-count" role="status" aria-live="polite">24 个组件，等你挑选</p><p class="catalog-tip">点图放大，点按钮复制</p></div>
+        <div class="catalog-meta"><p id="result-count" role="status" aria-live="polite">24 个组件，等你挑选</p><p class="catalog-tip">↙ 点图放大，点按钮复制</p></div>
         <div id="catalog" class="catalog"></div>
         <div id="empty" class="empty-state" hidden><span class="empty-doodle" aria-hidden="true">( ? )</span><h3>暂时没找到这一块</h3><p>试试短一点的关键词，或切回全部组件。</p></div>
         <noscript><p class="noscript-note">请开启 JavaScript 浏览和复制组件，也可以<a href="downloads/os-excalidraw-kit.zip" download>直接下载整套素材</a>。</p></noscript>

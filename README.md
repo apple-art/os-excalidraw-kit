@@ -25,6 +25,7 @@ python -m http.server 8000
 ## 文件组织
 
 - `index.html`、`styles.css`、`app.js`：网页界面与交互。
+- `sketch.js`：使用本地 Rough.js 给卡片和控件绘制手绘双描线。
 - `assets/`：24 套组件、原生素材库、分类数据与本地手写字体。
 - `source/`：组件生成代码，以及调用 Excalidraw 官方 API 的导出工具。
 - `scripts/build-catalog.mjs`：从素材元数据及原生文件生成网页目录和素材库。

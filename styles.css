@@ -15,3 +15,39 @@
 @media(max-width:560px){.catalog{grid-template-columns:1fr}.card-preview{height:220px;padding:22px 32px 15px}.card-content{padding:16px}.card-title{font-size:23px}.card-actions{display:flex}.card-actions button{font-size:11px;padding:7px 10px;min-height:35px}}
 @media(max-width:390px){.hero h1{font-size:45px}.hero-board{height:280px}.specimen-task{left:13px;width:116px;height:127px}.specimen-cpu{right:21px;width:121px;height:126px}.specimen-governor{left:61px;width:132px;height:113px}.specimen-clock{right:6px;width:107px;height:93px}.board-arrow{left:139px}.filters button{padding-inline:7px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Whiteboard layer: rough paths are drawn locally and never intercept input. */
+:root{--paper:#fbfaf6;--card:#fffefa;--ink:#34343e;--muted:#73747d;--line:#e2e0d8;--blue:#4263a8;--orange:#c66c38}
+body{background-color:var(--paper);background-image:radial-gradient(#dddcd4 0.7px,transparent .7px);background-size:24px 24px}
+.site-header,.hero,.library-top,.catalog-shell,.how-to,.site-footer{position:relative}
+.site-header{border-bottom:1px dashed #bbb9b0}
+.brand,.header-nav,.eyebrow,.hero-note,.library-top>p,.catalog-meta,.filters button,.search-field input,.card-actions button,.detail-copy-actions .button,.nav-button,.grid-toggle{font-family:var(--hand)}
+.header-nav{font-size:16px}.brand-small{font-family:var(--body)}
+.header-nav a:hover{color:var(--blue);text-decoration:underline;text-decoration-style:wavy;text-underline-offset:6px}
+.hero{padding-block:61px 69px}.hero h1{font-size:clamp(49px,5.2vw,72px)}
+.eyebrow{font-size:16px;letter-spacing:0}.hero-description{font-size:16px;color:#62646d}
+.title-mark:after{height:19px;bottom:4px;background:#ffd77a;opacity:.72;clip-path:polygon(0 26%,98% 2%,100% 72%,2% 100%);border-radius:0;transform:rotate(-2deg)}
+.button{font-family:var(--hand);font-size:17px;font-weight:400;box-shadow:3px 4px 0 #d9d6ce;border-radius:3px}
+.button-primary{background:#dbe8fc;color:#30303a}.button-primary:hover{background:#cbdffa}.button:hover{box-shadow:4px 5px 0 #cbc8be}
+.hero-note{font-size:14px;color:#757780}.note-line{height:2px;width:24px;background:#a0a0a5}
+.hero-board{background-color:#fffefa;background-image:radial-gradient(#d7d6cc .8px,transparent .8px);background-size:17px 17px;box-shadow:7px 8px 0 #e9e7de;border-radius:2px}
+.board-pin{background:#ffe3a9b8;clip-path:polygon(2% 8%,98% 0,100% 88%,0 100%);border-radius:0}
+.board-kicker{color:#65728a;font-size:17px}.board-footnote{font-size:16px;color:#b76542}
+.specimen{border-radius:0;box-shadow:3px 4px 0 #e9e6dc}.specimen span{font-size:16px;color:#5e6573}
+.library{border-top:1px dashed #bdbbb1}.library h2,.how-to h2{font-size:34px}.index-mark{color:#a8644c;font-size:18px}.library-top>p{font-size:16px}
+.toolbar-bar{background:#fbfaf6f2;border-block:1px dashed #cac8be}
+.filters{gap:7px}.filters button{font-size:16px;padding:8px 15px;border-radius:2px}.filters button[aria-pressed=true]{background:#dce8fb;border-color:transparent;box-shadow:none;transform:none}.filters button span{font-size:13px}
+.search-field{width:285px;background:#fffefa;border:1px solid #b9b8b0;padding:2px 12px;border-radius:2px}.search-field input{font-size:15px}.search-field:focus-within{box-shadow:0 0 0 2px #a7bee3;border-color:#4263a8}
+.catalog-meta{font-size:15px}.catalog-tip{color:#b36b4f;transform:rotate(-2deg)}
+.catalog{gap:25px}.card{border:1px solid #9999a0;border-radius:2px;box-shadow:3px 4px 0 #eeece3}.card:hover{box-shadow:5px 7px 0 #e6e3d9;transform:translateY(-2px)}
+.card-preview{background-color:#fffefa;background-image:repeating-linear-gradient(135deg,transparent 0,transparent 14px,rgba(111,133,167,.035) 14px,rgba(111,133,167,.035) 15px)}
+.card-content{border-top:1px dashed #c8c7bf}.card-title{font-size:26px}.card-tags span,.card-tags .tag{background:#f0f0e8;border-radius:2px}
+.card-actions button{font-size:14px;border-radius:2px;background:#fffefa;color:#4d4f58}.card-actions button:first-child,.card-actions .copy-native{background:#e3edfb;color:#385c97}
+.how-to{border-top:1px dashed #9f9d96}.step-number{border-radius:2px;font-size:22px;background:#ffe5aa}.how-grid article:nth-child(2) .step-number{background:#dce9fc}.how-grid article:nth-child(3) .step-number{background:#dcefe0}
+.how-grid h3{font-size:23px}.site-footer{border-top:1px dashed #c2c0b7}.site-footer>div{font-family:var(--hand);font-size:15px}
+.detail-dialog{border-radius:3px;box-shadow:7px 8px 0 #29293635}.detail-copy-actions .button{font-size:15px}.nav-button,.grid-toggle{font-size:14px}
+.sketched{position:relative;border-color:transparent!important}
+.sketched>svg.sketch-outline{position:absolute;inset:0;width:100%;height:100%;max-width:none;overflow:visible;pointer-events:none;z-index:4}
+.card.sketched{overflow:hidden}.card.sketched>.sketch-outline{z-index:3}
+@media(max-width:640px){.hero h1{font-size:51px}.library h2,.how-to h2{font-size:27px}.filters button{font-size:13px}.catalog-meta{font-size:12px}.header-nav{font-size:13px}.card-actions button{font-size:13px}}
+.specimen.sketched,.grid-toggle.sketched{position:absolute}

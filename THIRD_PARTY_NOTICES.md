@@ -12,3 +12,7 @@ Copyright © 2020 LXGW. The website font `assets/fonts/hand.woff2` is a characte
 
 - Source: https://github.com/lxgw/kose-font
 - License and original copyright notices: `licenses/Xiaolai-OFL.txt`
+
+## Rough.js
+
+Page borders are rendered by Rough.js 4.6.6, bundled locally in `assets/vendor/rough.js`. Copyright (c) 2017 Preet Shihn. Distributed under the MIT license included at `assets/vendor/rough-LICENSE.txt`.
