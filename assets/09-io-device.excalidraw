@@ -1,54 +1,79 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "09-io-device-1",
-      "type": "rectangle",
+      "type": "line",
       "x": 48,
       "y": 31,
-      "width": 270,
-      "height": 178,
+      "width": 271,
+      "height": 177,
       "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
       ],
       "frameId": null,
       "index": "a0",
-      "roundness": {
-        "type": 3
-      },
+      "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 441279071,
+      "versionNonce": 1436481920,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          267,
+          3
+        ],
+        [
+          271,
+          173
+        ],
+        [
+          3,
+          177
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "09-io-device-2",
-      "type": "rectangle",
+      "type": "line",
       "x": 68,
       "y": 51,
-      "width": 230,
-      "height": 116,
+      "width": 228,
+      "height": 114,
       "angle": 0,
-      "strokeColor": "#1971c2",
-      "backgroundColor": "#e7f1fd",
-      "fillStyle": "solid",
+      "strokeColor": "#4263a8",
+      "backgroundColor": "#dceafa",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -58,27 +83,54 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 91731729,
+      "versionNonce": 319250048,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          228,
+          2
+        ],
+        [
+          226,
+          114
+        ],
+        [
+          2,
+          111
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "09-io-device-3",
       "type": "line",
       "x": 88,
-      "y": 118,
-      "width": 100,
-      "height": 0,
+      "y": 119,
+      "width": 187,
+      "height": 51,
       "angle": 0,
-      "strokeColor": "#1971c2",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -88,10 +140,10 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 2018492031,
+      "versionNonce": 176408960,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
       "locked": false,
       "points": [
@@ -100,32 +152,32 @@
           0
         ],
         [
-          34,
-          0
+          33,
+          -1
         ],
         [
           34,
+          -32
+        ],
+        [
+          67,
           -33
         ],
         [
-          68,
-          -33
+          69,
+          17
         ],
         [
-          68,
-          21
+          102,
+          18
         ],
         [
-          105,
-          21
-        ],
-        [
-          105,
+          103,
           -18
         ],
         [
-          188,
-          -18
+          187,
+          -20
         ]
       ],
       "lastCommittedPoint": null,
@@ -136,18 +188,18 @@
     },
     {
       "id": "09-io-device-4",
-      "type": "ellipse",
-      "x": 281,
-      "y": 183,
-      "width": 9,
-      "height": 9,
+      "type": "text",
+      "x": 150,
+      "y": 171,
+      "width": 50.57098388671875,
+      "height": 33.75,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "#087f5b",
-      "fillStyle": "solid",
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -157,27 +209,36 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 1148234993,
+      "versionNonce": 664243840,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
-      "locked": false
+      "locked": false,
+      "text": "I/O",
+      "fontSize": 27,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "I/O",
+      "autoResize": true,
+      "lineHeight": 1.25
     },
     {
       "id": "09-io-device-5",
-      "type": "line",
-      "x": 148,
-      "y": 210,
-      "width": 100,
-      "height": 0,
+      "type": "ellipse",
+      "x": 276,
+      "y": 179,
+      "width": 11,
+      "height": 11,
       "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "transparent",
+      "strokeColor": "#21846e",
+      "backgroundColor": "#21846e",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -187,42 +248,27 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 2045875871,
+      "versionNonce": 1783536000,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          30
-        ]
-      ],
-      "lastCommittedPoint": null,
-      "startBinding": null,
-      "endBinding": null,
-      "startArrowhead": null,
-      "endArrowhead": null
+      "locked": false
     },
     {
       "id": "09-io-device-6",
       "type": "line",
-      "x": 216,
-      "y": 210,
-      "width": 100,
-      "height": 0,
+      "x": 146,
+      "y": 208,
+      "width": 26,
+      "height": 32,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -232,10 +278,10 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 143648465,
+      "versionNonce": 446807680,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
       "locked": false,
       "points": [
@@ -244,8 +290,12 @@
           0
         ],
         [
-          0,
+          -1,
           30
+        ],
+        [
+          -26,
+          32
         ]
       ],
       "lastCommittedPoint": null,
@@ -257,17 +307,17 @@
     {
       "id": "09-io-device-7",
       "type": "line",
-      "x": 124,
-      "y": 240,
-      "width": 100,
-      "height": 0,
+      "x": 216,
+      "y": 206,
+      "width": 29,
+      "height": 34,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -277,10 +327,10 @@
       "roundness": null,
       "seed": 1497,
       "version": 2,
-      "versionNonce": 1977838271,
+      "versionNonce": 675244416,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
       "locked": false,
       "points": [
@@ -289,8 +339,12 @@
           0
         ],
         [
-          116,
-          0
+          2,
+          33
+        ],
+        [
+          29,
+          34
         ]
       ],
       "lastCommittedPoint": null,
@@ -301,18 +355,18 @@
     },
     {
       "id": "09-io-device-8",
-      "type": "text",
-      "x": 159,
-      "y": 174,
-      "width": 46.824981689453125,
-      "height": 31.25,
+      "type": "line",
+      "x": 120,
+      "y": 240,
+      "width": 125,
+      "height": 0,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "09-io-device-component"
@@ -322,26 +376,31 @@
       "roundness": null,
       "seed": 1568,
       "version": 2,
-      "versionNonce": 1550640305,
+      "versionNonce": 216395392,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200341,
+      "updated": 1793118045869,
       "link": null,
       "locked": false,
-      "text": "I/O",
-      "fontSize": 25,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "containerId": null,
-      "originalText": "I/O",
-      "autoResize": true,
-      "lineHeight": 1.25
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          125,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

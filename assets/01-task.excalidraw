@@ -1,54 +1,83 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "task-1",
-      "type": "rectangle",
-      "x": 90,
-      "y": 44,
-      "width": 180,
-      "height": 160,
+      "type": "line",
+      "x": 65,
+      "y": 35,
+      "width": 209,
+      "height": 195,
       "angle": 0,
-      "strokeColor": "#1971c2",
-      "backgroundColor": "#e7f1fd",
-      "fillStyle": "solid",
+      "strokeColor": "#4263a8",
+      "backgroundColor": "#dceafa",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
       ],
       "frameId": null,
       "index": "a0",
-      "roundness": {
-        "type": 3
-      },
+      "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 2021191377,
+      "versionNonce": 1088646784,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          173,
+          -2
+        ],
+        [
+          209,
+          31
+        ],
+        [
+          207,
+          190
+        ],
+        [
+          3,
+          193
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "task-2",
       "type": "line",
-      "x": 90,
-      "y": 94,
-      "width": 100,
-      "height": 0,
+      "x": 238,
+      "y": 34,
+      "width": 35,
+      "height": 33,
       "angle": 0,
-      "strokeColor": "#1971c2",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -58,10 +87,10 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 451863231,
+      "versionNonce": 1144043904,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
       "locked": false,
       "points": [
@@ -70,8 +99,12 @@
           0
         ],
         [
-          180,
-          0
+          0,
+          33
+        ],
+        [
+          35,
+          32
         ]
       ],
       "lastCommittedPoint": null,
@@ -83,17 +116,17 @@
     {
       "id": "task-3",
       "type": "text",
-      "x": 132,
+      "x": 91,
       "y": 55,
-      "width": 77.478515625,
-      "height": 35,
+      "width": 88.546875,
+      "height": 40,
       "angle": 0,
-      "strokeColor": "#1971c2",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -103,14 +136,14 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 2046094513,
+      "versionNonce": 1601281664,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
       "locked": false,
       "text": "Task A",
-      "fontSize": 28,
+      "fontSize": 32,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
@@ -122,17 +155,17 @@
     {
       "id": "task-4",
       "type": "line",
-      "x": 117,
-      "y": 122,
-      "width": 100,
-      "height": 0,
+      "x": 91,
+      "y": 102,
+      "width": 152,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#adb5bd",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.6,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -142,10 +175,10 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 2107781855,
+      "versionNonce": 1088260480,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
       "locked": false,
       "points": [
@@ -154,8 +187,8 @@
           0
         ],
         [
-          125,
-          0
+          152,
+          -1
         ]
       ],
       "lastCommittedPoint": null,
@@ -167,17 +200,17 @@
     {
       "id": "task-5",
       "type": "line",
-      "x": 117,
-      "y": 145,
-      "width": 100,
-      "height": 0,
+      "x": 94,
+      "y": 130,
+      "width": 139,
+      "height": 2,
       "angle": 0,
-      "strokeColor": "#adb5bd",
+      "strokeColor": "#9297a0",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -187,10 +220,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 1257647761,
+      "versionNonce": 1824116352,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
       "locked": false,
       "points": [
@@ -199,8 +232,8 @@
           0
         ],
         [
-          101,
-          0
+          139,
+          -2
         ]
       ],
       "lastCommittedPoint": null,
@@ -211,18 +244,18 @@
     },
     {
       "id": "task-6",
-      "type": "ellipse",
-      "x": 117,
-      "y": 173,
-      "width": 12,
-      "height": 12,
+      "type": "line",
+      "x": 94,
+      "y": 152,
+      "width": 113,
+      "height": 2,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "#087f5b",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#9297a0",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -232,27 +265,42 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 699825919,
+      "versionNonce": 795892096,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          113,
+          2
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "task-7",
-      "type": "text",
-      "x": 142,
-      "y": 163,
-      "width": 58.53515625,
-      "height": 30,
+      "type": "ellipse",
+      "x": 96,
+      "y": 187,
+      "width": 13,
+      "height": 13,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "transparent",
+      "strokeColor": "#21846e",
+      "backgroundColor": "#21846e",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "task-task-card"
@@ -262,14 +310,44 @@
       "roundness": null,
       "seed": 1497,
       "version": 2,
-      "versionNonce": 1379153009,
+      "versionNonce": 24903296,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199881,
+      "updated": 1793118045433,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "task-8",
+      "type": "text",
+      "x": 124,
+      "y": 177,
+      "width": 63.4130859375,
+      "height": 32.5,
+      "angle": 0,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "task-task-card"
+      ],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 1568,
+      "version": 2,
+      "versionNonce": 1663641984,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118045433,
       "link": null,
       "locked": false,
       "text": "ready",
-      "fontSize": 24,
+      "fontSize": 26,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
@@ -280,8 +358,7 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

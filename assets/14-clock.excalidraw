@@ -1,22 +1,22 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "14-clock-1",
       "type": "ellipse",
-      "x": 66,
-      "y": 45,
-      "width": 176,
-      "height": 176,
+      "x": 59,
+      "y": 47,
+      "width": 172,
+      "height": 172,
       "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
+      "strokeColor": "#4263a8",
+      "backgroundColor": "#dceafa",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -26,27 +26,27 @@
       "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 1229357105,
+      "versionNonce": 1287219584,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false
     },
     {
       "id": "14-clock-2",
       "type": "line",
-      "x": 154,
-      "y": 60,
-      "width": 100,
-      "height": 0,
+      "x": 145,
+      "y": 65,
+      "width": 0,
+      "height": 11,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -56,10 +56,10 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 881170271,
+      "versionNonce": 84668032,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -69,7 +69,7 @@
         ],
         [
           0,
-          -8
+          -11
         ]
       ],
       "lastCommittedPoint": null,
@@ -81,17 +81,17 @@
     {
       "id": "14-clock-3",
       "type": "line",
-      "x": 190.5,
+      "x": 181.5,
       "y": 69.78014552373597,
-      "width": 100,
-      "height": 0,
+      "width": 3,
+      "height": 5.196152422706632,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -101,10 +101,10 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 1909019153,
+      "versionNonce": 349190528,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -113,8 +113,8 @@
           0
         ],
         [
-          4,
-          -6.9282032302755
+          3,
+          -5.196152422706632
         ]
       ],
       "lastCommittedPoint": null,
@@ -126,17 +126,17 @@
     {
       "id": "14-clock-4",
       "type": "line",
-      "x": 217.219854476264,
+      "x": 208.219854476264,
       "y": 96.5,
-      "width": 100,
-      "height": 0,
+      "width": 5.196152422706632,
+      "height": 3,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -146,10 +146,10 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 1740198783,
+      "versionNonce": 176823936,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -158,8 +158,8 @@
           0
         ],
         [
-          6.928203230275528,
-          -4
+          5.196152422706632,
+          -3
         ]
       ],
       "lastCommittedPoint": null,
@@ -171,17 +171,17 @@
     {
       "id": "14-clock-5",
       "type": "line",
-      "x": 227,
+      "x": 213,
       "y": 133,
-      "width": 100,
+      "width": 11,
       "height": 0,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -191,10 +191,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 165079025,
+      "versionNonce": 1368197504,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -203,7 +203,7 @@
           0
         ],
         [
-          8,
+          11,
           0
         ]
       ],
@@ -216,17 +216,17 @@
     {
       "id": "14-clock-6",
       "type": "line",
-      "x": 217.21985447626403,
+      "x": 208.21985447626403,
       "y": 169.5,
-      "width": 100,
-      "height": 0,
+      "width": 5.196152422706632,
+      "height": 3,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -236,10 +236,10 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 1365281695,
+      "versionNonce": 549604992,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -248,8 +248,8 @@
           0
         ],
         [
-          6.9282032302755,
-          4
+          5.196152422706632,
+          3
         ]
       ],
       "lastCommittedPoint": null,
@@ -261,17 +261,17 @@
     {
       "id": "14-clock-7",
       "type": "line",
-      "x": 190.5,
+      "x": 181.5,
       "y": 196.21985447626403,
-      "width": 100,
-      "height": 0,
+      "width": 3,
+      "height": 5.196152422706632,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -281,10 +281,10 @@
       "roundness": null,
       "seed": 1497,
       "version": 2,
-      "versionNonce": 1534509521,
+      "versionNonce": 2117065088,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -293,8 +293,8 @@
           0
         ],
         [
-          4,
-          6.9282032302755
+          3,
+          5.196152422706632
         ]
       ],
       "lastCommittedPoint": null,
@@ -306,17 +306,17 @@
     {
       "id": "14-clock-8",
       "type": "line",
-      "x": 154,
-      "y": 206,
-      "width": 100,
-      "height": 0,
+      "x": 145,
+      "y": 201,
+      "width": 0,
+      "height": 11,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -326,10 +326,10 @@
       "roundness": null,
       "seed": 1568,
       "version": 2,
-      "versionNonce": 1303101375,
+      "versionNonce": 544505472,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -339,7 +339,7 @@
         ],
         [
           0,
-          8
+          11
         ]
       ],
       "lastCommittedPoint": null,
@@ -351,17 +351,17 @@
     {
       "id": "14-clock-9",
       "type": "line",
-      "x": 117.50000000000001,
+      "x": 108.50000000000001,
       "y": 196.21985447626403,
-      "width": 100,
-      "height": 0,
+      "width": 3,
+      "height": 5.196152422706632,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -371,10 +371,10 @@
       "roundness": null,
       "seed": 1639,
       "version": 2,
-      "versionNonce": 62939057,
+      "versionNonce": 771271040,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -383,8 +383,8 @@
           0
         ],
         [
-          -3.999999999999986,
-          6.9282032302755
+          -3,
+          5.196152422706632
         ]
       ],
       "lastCommittedPoint": null,
@@ -396,17 +396,17 @@
     {
       "id": "14-clock-10",
       "type": "line",
-      "x": 90.780145523736,
+      "x": 81.780145523736,
       "y": 169.50000000000003,
-      "width": 100,
-      "height": 0,
+      "width": 5.196152422706632,
+      "height": 3,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -416,10 +416,10 @@
       "roundness": null,
       "seed": 1710,
       "version": 2,
-      "versionNonce": 1589342175,
+      "versionNonce": 1247850112,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -428,8 +428,8 @@
           0
         ],
         [
-          -6.928203230275514,
-          4
+          -5.196152422706632,
+          3
         ]
       ],
       "lastCommittedPoint": null,
@@ -441,17 +441,17 @@
     {
       "id": "14-clock-11",
       "type": "line",
-      "x": 81,
+      "x": 77,
       "y": 133,
-      "width": 100,
+      "width": 11,
       "height": 0,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -461,10 +461,10 @@
       "roundness": null,
       "seed": 1781,
       "version": 2,
-      "versionNonce": 282804625,
+      "versionNonce": 203913600,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -473,7 +473,7 @@
           0
         ],
         [
-          -8,
+          -11,
           0
         ]
       ],
@@ -486,17 +486,17 @@
     {
       "id": "14-clock-12",
       "type": "line",
-      "x": 90.78014552373598,
+      "x": 81.78014552373598,
       "y": 96.5,
-      "width": 100,
-      "height": 0,
+      "width": 5.196152422706632,
+      "height": 3,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -506,10 +506,10 @@
       "roundness": null,
       "seed": 1852,
       "version": 2,
-      "versionNonce": 1855986687,
+      "versionNonce": 1195826816,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -518,8 +518,8 @@
           0
         ],
         [
-          -6.928203230275514,
-          -4
+          -5.196152422706632,
+          -3
         ]
       ],
       "lastCommittedPoint": null,
@@ -531,17 +531,17 @@
     {
       "id": "14-clock-13",
       "type": "line",
-      "x": 117.49999999999997,
+      "x": 108.49999999999997,
       "y": 69.780145523736,
-      "width": 100,
-      "height": 0,
+      "width": 3,
+      "height": 5.196152422706632,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#4263a8",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.6,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.7,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -551,10 +551,10 @@
       "roundness": null,
       "seed": 1923,
       "version": 2,
-      "versionNonce": 1610540913,
+      "versionNonce": 1543260544,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -563,8 +563,8 @@
           0
         ],
         [
-          -4,
-          -6.9282032302755
+          -3,
+          -5.196152422706632
         ]
       ],
       "lastCommittedPoint": null,
@@ -576,17 +576,17 @@
     {
       "id": "14-clock-14",
       "type": "line",
-      "x": 154,
-      "y": 83,
-      "width": 100,
-      "height": 0,
+      "x": 145,
+      "y": 82,
+      "width": 39,
+      "height": 69,
       "angle": 0,
-      "strokeColor": "#1971c2",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 3,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -596,10 +596,10 @@
       "roundness": null,
       "seed": 1994,
       "version": 2,
-      "versionNonce": 1364870175,
+      "versionNonce": 669453952,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -609,11 +609,11 @@
         ],
         [
           0,
-          50
+          51
         ],
         [
-          42,
-          70
+          39,
+          69
         ]
       ],
       "lastCommittedPoint": null,
@@ -625,17 +625,17 @@
     {
       "id": "14-clock-15",
       "type": "ellipse",
-      "x": 149,
+      "x": 140,
       "y": 128,
       "width": 10,
       "height": 10,
       "angle": 0,
-      "strokeColor": "#1971c2",
-      "backgroundColor": "#1971c2",
+      "strokeColor": "#4263a8",
+      "backgroundColor": "#4263a8",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -645,27 +645,27 @@
       "roundness": null,
       "seed": 2065,
       "version": 2,
-      "versionNonce": 997380433,
+      "versionNonce": 2025265536,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false
     },
     {
       "id": "14-clock-16",
       "type": "line",
-      "x": 263,
+      "x": 249,
       "y": 102,
-      "width": 100,
-      "height": 0,
+      "width": 63,
+      "height": 30,
       "angle": 0,
-      "strokeColor": "#d16b23",
+      "strokeColor": "#c66c38",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -675,10 +675,10 @@
       "roundness": null,
       "seed": 2136,
       "version": 2,
-      "versionNonce": 114976831,
+      "versionNonce": 1694580352,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "points": [
@@ -687,23 +687,23 @@
           0
         ],
         [
-          17,
+          18,
           0
         ],
         [
-          17,
+          19,
           -30
         ],
         [
-          37,
-          -30
+          41,
+          -29
         ],
         [
-          37,
+          41,
           0
         ],
         [
-          57,
+          63,
           0
         ]
       ],
@@ -716,17 +716,17 @@
     {
       "id": "14-clock-17",
       "type": "text",
-      "x": 271,
-      "y": 124,
-      "width": 44.015960693359375,
-      "height": 30,
+      "x": 260,
+      "y": 121,
+      "width": 45.8499755859375,
+      "height": 31.25,
       "angle": 0,
-      "strokeColor": "#d16b23",
+      "strokeColor": "#c66c38",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "14-clock-component"
@@ -736,14 +736,14 @@
       "roundness": null,
       "seed": 2207,
       "version": 2,
-      "versionNonce": 948862769,
+      "versionNonce": 1436019072,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200500,
+      "updated": 1793118046008,
       "link": null,
       "locked": false,
       "text": "tick",
-      "fontSize": 24,
+      "fontSize": 25,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
@@ -751,11 +751,55 @@
       "originalText": "tick",
       "autoResize": true,
       "lineHeight": 1.25
+    },
+    {
+      "id": "14-clock-18",
+      "type": "line",
+      "x": 259,
+      "y": 157,
+      "width": 47,
+      "height": 1,
+      "angle": 0,
+      "strokeColor": "#c66c38",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.4,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "14-clock-component"
+      ],
+      "frameId": null,
+      "index": "aH",
+      "roundness": null,
+      "seed": 2278,
+      "version": 2,
+      "versionNonce": 1599434368,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046008,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          47,
+          -1
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

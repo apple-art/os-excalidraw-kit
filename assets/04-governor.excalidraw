@@ -1,54 +1,79 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "gov-1",
-      "type": "rectangle",
-      "x": 68,
-      "y": 40,
-      "width": 232,
-      "height": 194,
+      "type": "line",
+      "x": 58,
+      "y": 33,
+      "width": 240,
+      "height": 200,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "#f3edfa",
-      "fillStyle": "solid",
+      "strokeColor": "#7957a4",
+      "backgroundColor": "#ece1f8",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
       ],
       "frameId": null,
       "index": "a0",
-      "roundness": {
-        "type": 3
-      },
+      "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 139865407,
+      "versionNonce": 403492480,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          236,
+          3
+        ],
+        [
+          240,
+          200
+        ],
+        [
+          3,
+          197
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "gov-2",
       "type": "text",
-      "x": 102,
-      "y": 57,
-      "width": 116.67594909667969,
-      "height": 35,
+      "x": 94,
+      "y": 49,
+      "width": 120.84295654296875,
+      "height": 36.25,
       "angle": 0,
-      "strokeColor": "#7950a0",
+      "strokeColor": "#7957a4",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -58,14 +83,14 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 1901955633,
+      "versionNonce": 1456298368,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
       "locked": false,
       "text": "governor",
-      "fontSize": 28,
+      "fontSize": 29,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
@@ -77,17 +102,17 @@
     {
       "id": "gov-3",
       "type": "line",
-      "x": 96,
-      "y": 116,
-      "width": 100,
-      "height": 0,
+      "x": 83,
+      "y": 96,
+      "width": 189,
+      "height": 2,
       "angle": 0,
-      "strokeColor": "#7950a0",
+      "strokeColor": "#7957a4",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -97,10 +122,10 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 79441247,
+      "versionNonce": 1248788096,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
       "locked": false,
       "points": [
@@ -109,8 +134,8 @@
           0
         ],
         [
-          176,
-          0
+          189,
+          2
         ]
       ],
       "lastCommittedPoint": null,
@@ -121,18 +146,18 @@
     },
     {
       "id": "gov-4",
-      "type": "rectangle",
-      "x": 125,
-      "y": 105,
-      "width": 14,
-      "height": 22,
+      "type": "line",
+      "x": 89,
+      "y": 125,
+      "width": 178,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#7957a4",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -142,27 +167,42 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 1450122257,
+      "versionNonce": 384182656,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          178,
+          -1
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "gov-5",
       "type": "line",
-      "x": 96,
-      "y": 155,
-      "width": 100,
-      "height": 0,
+      "x": 126,
+      "y": 113,
+      "width": 19,
+      "height": 24,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "transparent",
+      "strokeColor": "#7957a4",
+      "backgroundColor": "#fffefa",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -172,10 +212,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 1621961087,
+      "versionNonce": 1359687296,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
       "locked": false,
       "points": [
@@ -184,7 +224,19 @@
           0
         ],
         [
-          176,
+          18,
+          1
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          0,
           0
         ]
       ],
@@ -196,18 +248,18 @@
     },
     {
       "id": "gov-6",
-      "type": "rectangle",
-      "x": 218,
-      "y": 144,
-      "width": 14,
-      "height": 22,
+      "type": "line",
+      "x": 89,
+      "y": 163,
+      "width": 178,
+      "height": 2,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#7957a4",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -217,27 +269,42 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 724791793,
+      "versionNonce": 2070215040,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          178,
+          2
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "gov-7",
       "type": "line",
-      "x": 96,
-      "y": 194,
-      "width": 100,
-      "height": 0,
+      "x": 213,
+      "y": 151,
+      "width": 19,
+      "height": 24,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "transparent",
+      "strokeColor": "#7957a4",
+      "backgroundColor": "#fffefa",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -247,10 +314,10 @@
       "roundness": null,
       "seed": 1497,
       "version": 2,
-      "versionNonce": 1768530335,
+      "versionNonce": 346119808,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
       "locked": false,
       "points": [
@@ -259,7 +326,19 @@
           0
         ],
         [
-          176,
+          18,
+          1
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          0,
           0
         ]
       ],
@@ -271,18 +350,18 @@
     },
     {
       "id": "gov-8",
-      "type": "rectangle",
-      "x": 174,
-      "y": 183,
-      "width": 14,
-      "height": 22,
+      "type": "line",
+      "x": 89,
+      "y": 201,
+      "width": 178,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#7950a0",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#7957a4",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "gov-governor"
@@ -292,17 +371,88 @@
       "roundness": null,
       "seed": 1568,
       "version": 2,
-      "versionNonce": 1957825489,
+      "versionNonce": 126470528,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200056,
+      "updated": 1793118045595,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          178,
+          -1
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "gov-9",
+      "type": "line",
+      "x": 172,
+      "y": 189,
+      "width": 19,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#7957a4",
+      "backgroundColor": "#fffefa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "gov-governor"
+      ],
+      "frameId": null,
+      "index": "a8",
+      "roundness": null,
+      "seed": 1639,
+      "version": 2,
+      "versionNonce": 1710329472,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118045595,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

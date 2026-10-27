@@ -1,54 +1,79 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "16-semaphore-1",
-      "type": "rectangle",
+      "type": "line",
       "x": 48,
-      "y": 40,
-      "width": 255,
-      "height": 191,
+      "y": 39,
+      "width": 257,
+      "height": 193,
       "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
+      "strokeColor": "#21846e",
+      "backgroundColor": "#d9efe8",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "16-semaphore-component"
       ],
       "frameId": null,
       "index": "a0",
-      "roundness": {
-        "type": 3
-      },
+      "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 343129247,
+      "versionNonce": 328673664,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200548,
+      "updated": 1793118046045,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          254,
+          3
+        ],
+        [
+          257,
+          193
+        ],
+        [
+          2,
+          191
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "16-semaphore-2",
       "type": "text",
       "x": 100,
-      "y": 62,
+      "y": 60,
       "width": 119.52497863769531,
       "height": 31.25,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "16-semaphore-component"
@@ -58,10 +83,10 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 1797988561,
+      "versionNonce": 1944727168,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200548,
+      "updated": 1793118046045,
       "link": null,
       "locked": false,
       "text": "count = 2",
@@ -76,18 +101,18 @@
     },
     {
       "id": "16-semaphore-3",
-      "type": "ellipse",
-      "x": 83,
-      "y": 123,
-      "width": 70,
-      "height": 70,
+      "type": "line",
+      "x": 71,
+      "y": 103,
+      "width": 211,
+      "height": 2,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "#e6f4ee",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "16-semaphore-component"
@@ -97,40 +122,10 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 154194111,
+      "versionNonce": 972421504,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200548,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "16-semaphore-4",
-      "type": "line",
-      "x": 101,
-      "y": 158,
-      "width": 100,
-      "height": 0,
-      "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 3,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [
-        "16-semaphore-component"
-      ],
-      "frameId": null,
-      "index": "a3",
-      "roundness": null,
-      "seed": 1284,
-      "version": 2,
-      "versionNonce": 2073091761,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1793032200548,
+      "updated": 1793118046045,
       "link": null,
       "locked": false,
       "points": [
@@ -139,12 +134,8 @@
           0
         ],
         [
-          12,
-          13
-        ],
-        [
-          36,
-          -15
+          211,
+          2
         ]
       ],
       "lastCommittedPoint": null,
@@ -154,19 +145,49 @@
       "endArrowhead": null
     },
     {
-      "id": "16-semaphore-5",
+      "id": "16-semaphore-4",
       "type": "ellipse",
-      "x": 197,
-      "y": 123,
-      "width": 70,
-      "height": 70,
+      "x": 84,
+      "y": 126,
+      "width": 68,
+      "height": 68,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "#e6f4ee",
-      "fillStyle": "solid",
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "16-semaphore-component"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1284,
+      "version": 2,
+      "versionNonce": 60841600,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046045,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "16-semaphore-5",
+      "type": "line",
+      "x": 101,
+      "y": 159,
+      "width": 36,
+      "height": 27,
+      "angle": 0,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "16-semaphore-component"
@@ -176,40 +197,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 1769365727,
+      "versionNonce": 1274726784,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200548,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "16-semaphore-6",
-      "type": "line",
-      "x": 215,
-      "y": 158,
-      "width": 100,
-      "height": 0,
-      "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 3,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [
-        "16-semaphore-component"
-      ],
-      "frameId": null,
-      "index": "a5",
-      "roundness": null,
-      "seed": 1426,
-      "version": 2,
-      "versionNonce": 1480843409,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1793032200548,
+      "updated": 1793118046045,
       "link": null,
       "locked": false,
       "points": [
@@ -223,7 +214,86 @@
         ],
         [
           36,
-          -15
+          -14
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "16-semaphore-6",
+      "type": "ellipse",
+      "x": 198,
+      "y": 128,
+      "width": 68,
+      "height": 68,
+      "angle": 0,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "16-semaphore-component"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1426,
+      "version": 2,
+      "versionNonce": 487624320,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046045,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "16-semaphore-7",
+      "type": "line",
+      "x": 215,
+      "y": 161,
+      "width": 36,
+      "height": 27,
+      "angle": 0,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 3,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "16-semaphore-component"
+      ],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 1497,
+      "version": 2,
+      "versionNonce": 1692768640,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046045,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          36,
+          -14
         ]
       ],
       "lastCommittedPoint": null,
@@ -234,8 +304,7 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

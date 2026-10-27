@@ -1,22 +1,22 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "thermal-1",
       "type": "line",
       "x": 119,
       "y": 176,
-      "width": 100,
-      "height": 0,
+      "width": 79,
+      "height": 201,
       "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0.7,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -28,10 +28,10 @@
       },
       "seed": 1071,
       "version": 2,
-      "versionNonce": 1801607601,
+      "versionNonce": 1517504896,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -40,56 +40,72 @@
           0
         ],
         [
-          0,
-          -111
+          -1,
+          -110
         ],
         [
-          5,
-          -127
+          3,
+          -124
         ],
         [
-          21,
-          -133
+          13,
+          -132
         ],
         [
-          37,
-          -127
+          25,
+          -134
+        ],
+        [
+          36,
+          -129
         ],
         [
           42,
-          -111
+          -116
         ],
         [
-          42,
+          43,
           0
         ],
         [
-          59,
-          17
+          55,
+          11
         ],
         [
           61,
-          39
+          26
         ],
         [
-          47,
+          59,
+          43
+        ],
+        [
+          48,
+          58
+        ],
+        [
+          32,
+          67
+        ],
+        [
+          15,
+          67
+        ],
+        [
+          -1,
           60
         ],
         [
-          22,
-          68
-        ],
-        [
-          -3,
-          60
+          -13,
+          48
         ],
         [
           -18,
-          40
+          33
         ],
         [
-          -16,
-          18
+          -15,
+          16
         ],
         [
           0,
@@ -106,16 +122,16 @@
       "id": "thermal-2",
       "type": "line",
       "x": 140,
-      "y": 97,
-      "width": 100,
-      "height": 0,
+      "y": 95,
+      "width": 0,
+      "height": 113,
       "angle": 0,
       "strokeColor": "#c34848",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 9,
+      "fillStyle": "hachure",
+      "strokeWidth": 8,
       "strokeStyle": "solid",
-      "roughness": 0.7,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -125,10 +141,10 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 902698463,
+      "versionNonce": 811601536,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -138,7 +154,7 @@
         ],
         [
           0,
-          114
+          113
         ]
       ],
       "lastCommittedPoint": null,
@@ -157,10 +173,10 @@
       "angle": 0,
       "strokeColor": "#c34848",
       "backgroundColor": "#fceaea",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -170,27 +186,27 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 1714289553,
+      "versionNonce": 273553792,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false
     },
     {
       "id": "thermal-4",
       "type": "line",
-      "x": 180,
-      "y": 83,
-      "width": 100,
-      "height": 0,
+      "x": 178,
+      "y": 82,
+      "width": 23,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -200,10 +216,10 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 1483604479,
+      "versionNonce": 1985625728,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -213,7 +229,7 @@
         ],
         [
           23,
-          0
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -225,17 +241,17 @@
     {
       "id": "thermal-5",
       "type": "line",
-      "x": 180,
-      "y": 115,
-      "width": 100,
-      "height": 0,
+      "x": 178,
+      "y": 114,
+      "width": 26,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -245,10 +261,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 787112305,
+      "versionNonce": 1649338752,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -257,8 +273,8 @@
           0
         ],
         [
-          23,
-          0
+          26,
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -270,17 +286,17 @@
     {
       "id": "thermal-6",
       "type": "line",
-      "x": 180,
-      "y": 147,
-      "width": 100,
-      "height": 0,
+      "x": 178,
+      "y": 146,
+      "width": 23,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -290,10 +306,10 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 1417374239,
+      "versionNonce": 1569615488,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -303,7 +319,7 @@
         ],
         [
           23,
-          0
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -315,17 +331,17 @@
     {
       "id": "thermal-7",
       "type": "line",
-      "x": 242,
-      "y": 151,
-      "width": 100,
-      "height": 0,
+      "x": 238,
+      "y": 153,
+      "width": 13,
+      "height": 55,
       "angle": 0,
-      "strokeColor": "#d16b23",
+      "strokeColor": "#c66c38",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0.65,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -337,10 +353,10 @@
       },
       "seed": 1497,
       "version": 2,
-      "versionNonce": 1390349137,
+      "versionNonce": 1538636160,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -349,20 +365,20 @@
           0
         ],
         [
-          -7,
-          -12
+          -6,
+          -13
         ],
         [
-          -2,
-          -25
+          0,
+          -27
         ],
         [
-          5,
-          -38
+          7,
+          -41
         ],
         [
-          -1,
-          -52
+          1,
+          -55
         ]
       ],
       "lastCommittedPoint": null,
@@ -374,17 +390,17 @@
     {
       "id": "thermal-8",
       "type": "line",
-      "x": 281,
-      "y": 151,
-      "width": 100,
-      "height": 0,
+      "x": 278,
+      "y": 152,
+      "width": 12,
+      "height": 55,
       "angle": 0,
-      "strokeColor": "#d16b23",
+      "strokeColor": "#c66c38",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 0.65,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -396,10 +412,10 @@
       },
       "seed": 1568,
       "version": 2,
-      "versionNonce": 384224831,
+      "versionNonce": 784113280,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "points": [
@@ -408,20 +424,20 @@
           0
         ],
         [
-          -7,
-          -12
+          -6,
+          -13
         ],
         [
-          -2,
-          -25
+          0,
+          -27
         ],
         [
-          5,
-          -38
+          6,
+          -41
         ],
         [
-          -1,
-          -52
+          1,
+          -55
         ]
       ],
       "lastCommittedPoint": null,
@@ -433,17 +449,17 @@
     {
       "id": "thermal-9",
       "type": "text",
-      "x": 219,
-      "y": 191,
-      "width": 28.106979370117188,
-      "height": 33.75,
+      "x": 220,
+      "y": 190,
+      "width": 29.147994995117188,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#c34848",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "thermal-thermal"
@@ -453,14 +469,14 @@
       "roundness": null,
       "seed": 1639,
       "version": 2,
-      "versionNonce": 1248033073,
+      "versionNonce": 532842880,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200799,
+      "updated": 1793118046286,
       "link": null,
       "locked": false,
       "text": "°C",
-      "fontSize": 27,
+      "fontSize": 28,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
@@ -471,8 +487,7 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

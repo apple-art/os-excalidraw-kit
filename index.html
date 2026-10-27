@@ -1,112 +1,112 @@
-<!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f9f8f2">
-  <meta name="description" content="24 个可以直接拿走的操作系统手绘组件。复制到 Excalidraw 继续编辑，或复制、下载 SVG 和 PNG，用在你的笔记、课件和文章里。">
-  <title>OS Sketch Kit — 把操作系统，画明白。</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="canonical" href="https://apple-art.github.io/os-excalidraw-kit/">
-  <link rel="stylesheet" href="styles.css?v=2">
-  <link rel="preload" href="assets/fonts/hand.woff2" as="font" type="font/woff2" crossorigin>
-  <script src="assets/catalog.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="assets/vendor/rough.js" defer></script>
-  <script src="sketch.js?v=2" defer></script>
-</head>
-<body>
-  <a href="#library" class="skip-link">跳到组件素材</a>
-  <header class="site-header shell">
-    <a class="brand" href="./" aria-label="OS Sketch Kit 首页">
-      <svg class="brand-mark" viewBox="0 0 42 42" fill="none" aria-hidden="true"><path d="m8 8 27-1 1 27-28 1V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m5 12-1 26 28 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="m14 16 14-1m-14 7 10 1m-10 5 16-1" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/></svg>
-      <span>OS <span class="brand-hand">Sketch</span> Kit<span class="brand-small">操作系统手绘组件</span></span>
-    </a>
-    <nav class="header-nav" aria-label="主导航">
-      <a href="#how-to">怎么用</a>
-      <a href="assets/os-components.excalidrawlib" download>整套素材库 <span aria-hidden="true">↓</span></a>
-      <a class="github-link" href="https://github.com/apple-art/os-excalidraw-kit" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero shell" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> 为你的下一张解释图准备</div>
-        <h1 id="hero-title">把操作系统，<br><span class="title-mark">画明白。</span></h1>
-        <p class="hero-description">任务、队列、CPU，还有那些不好画的概念。<br>24 个手绘组件，挑一个，直接拿走。</p>
-        <div class="hero-actions">
-          <a href="#library" class="button button-primary">看看组件 <span aria-hidden="true">↘</span></a>
-          <a href="downloads/os-excalidraw-kit.zip" class="button button-paper" download>打包带走 <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M11 3v11m-4-4 4 4 4-4M4 16v3h14v-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-        </div>
-        <div class="hero-note"><span class="note-line" aria-hidden="true"></span>可编辑的 Excalidraw · SVG · PNG</div>
-      </div>
-      <div class="hero-board" aria-label="任务、CPU、调频策略与时钟组件预览">
-        <span class="board-pin" aria-hidden="true"></span>
-        <span class="board-kicker">✎ 把想法摊开来画</span>
-        <div class="specimen specimen-task"><img src="assets/01-task.svg" alt="任务卡片" fetchpriority="high" width="250" height="230"><span>一个任务</span></div>
-        <div class="specimen specimen-cpu"><img src="assets/02-cpu.svg" alt="CPU 核心" fetchpriority="high" width="250" height="250"><span>一颗 CPU</span></div>
-        <div class="specimen specimen-governor"><img src="assets/04-governor.svg" alt="调频 governor" width="250" height="220"><span>一点控制</span></div>
-        <div class="specimen specimen-clock"><img src="assets/14-clock.svg" alt="时钟与时间片" width="280" height="210"><span>一些时间</span></div>
-        <svg class="board-arrow" viewBox="0 0 100 80" fill="none" aria-hidden="true"><path d="M14 13c40-5 64 17 58 50M60 52l12 13 11-13" stroke="#d16b23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span class="board-footnote">你的图，从这里开始。</span>
-      </div>
-    </section>
-
-    <section id="library" class="library" aria-labelledby="library-title">
-      <div class="library-top shell">
-        <div class="section-title"><span class="index-mark">01 /</span><h2 id="library-title">挑一块，开始画</h2></div>
-        <p>独立组件，随你组合 <span class="hand-arrow" aria-hidden="true">↴</span></p>
-      </div>
-      <div class="toolbar-bar">
-        <div class="toolbar shell">
-          <nav id="filters" class="filters" aria-label="组件分类">
-            <button type="button" data-filter="all" aria-pressed="true">全部组件 <span>24</span></button>
-            <button type="button" data-filter="system" aria-pressed="false">系统对象</button>
-            <button type="button" data-filter="scheduling" aria-pressed="false">任务调度</button>
-            <button type="button" data-filter="frequency" aria-pressed="false">调频与功耗</button>
-          </nav>
-          <label class="search-field" for="search">
-            <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M15.5 9.5a6 6 0 1 1-12 0 6 6 0 0 1 12 0Zm-1 5 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            <span class="sr-only">搜索组件</span>
-            <input id="search" type="search" placeholder="找找 CPU、队列、锁…" autocomplete="off" spellcheck="false">
-            <kbd aria-hidden="true">/</kbd>
-          </label>
-        </div>
-      </div>
-      <div class="shell catalog-shell">
-        <div class="catalog-meta"><p id="result-count" role="status" aria-live="polite">24 个组件，等你挑选</p><p class="catalog-tip">↙ 点图放大，点按钮复制</p></div>
-        <div id="catalog" class="catalog"></div>
-        <div id="empty" class="empty-state" hidden><span class="empty-doodle" aria-hidden="true">( ? )</span><h3>暂时没找到这一块</h3><p>试试短一点的关键词，或切回全部组件。</p></div>
-        <noscript><p class="noscript-note">请开启 JavaScript 浏览和复制组件，也可以<a href="downloads/os-excalidraw-kit.zip" download>直接下载整套素材</a>。</p></noscript>
-      </div>
-    </section>
-
-    <section id="how-to" class="how-to shell" aria-labelledby="how-title">
-      <div class="how-heading"><span class="index-mark">02 /</span><h2 id="how-title">拿走以后，怎么用？</h2><svg viewBox="0 0 110 44" fill="none" aria-hidden="true"><path d="M4 16c35 22 71 13 96-8M85 9l17-2-2 15" stroke="#d16b23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="how-grid">
-        <article><span class="step-number">1</span><div><h3>继续画，选 Excalidraw</h3><p>复制后，到 Excalidraw 画布按 <kbd>Ctrl</kbd> / <kbd>⌘</kbd> + <kbd>V</kbd>。框、线和文字都能接着改。</p></div></article>
-        <article><span class="step-number">2</span><div><h3>放大用，选 SVG</h3><p>适合笔记、课件和文章。若浏览器不支持复制 SVG 图像，会为你复制 SVG 源码。</p></div></article>
-        <article><span class="step-number">3</span><div><h3>随手贴，选 PNG</h3><p>复制图片，粘到你正在写的地方。不支持图片复制时，也可以直接下载。</p></div></article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer shell">
-    <p><span class="footer-doodle" aria-hidden="true">✎</span> 好的解释，从一张图开始。</p>
-    <div><a href="assets/os-components.excalidrawlib" download>下载素材库</a><a href="https://github.com/apple-art/os-excalidraw-kit" target="_blank" rel="noopener noreferrer">源码与反馈 ↗</a></div>
-  </footer>
-
-  <dialog id="detail" class="detail-dialog" aria-labelledby="detail-title">
-    <div class="detail-heading"><div><span class="detail-eyebrow">OS SKETCH KIT <span id="detail-counter"></span></span><h2 id="detail-title">组件预览</h2></div><button id="detail-close" class="icon-button" type="button" aria-label="关闭预览"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
-    <div id="detail-stage" class="detail-stage"><img id="detail-image" src="assets/01-task.svg" alt=""><button id="toggle-grid" class="grid-toggle" type="button" aria-pressed="false"><span aria-hidden="true">▦</span> 透明网格</button></div>
-    <div class="detail-body"><div id="detail-tags" class="card-tags"></div><p id="detail-description"></p>
-      <div class="detail-copy-actions"><button id="copy-code" class="button button-primary" type="button">复制 Excalidraw</button><button id="copy-svg" class="button button-paper" type="button">复制 SVG</button><button id="copy-png" class="button button-paper" type="button">复制 PNG</button></div>
-      <div class="detail-downloads"><span>或者下载：</span><a id="download-native" download>原生文件</a><a id="download-svg" download>SVG</a><a id="download-png" download>PNG</a></div>
-      <details id="source-panel" class="source-panel"><summary>查看 Excalidraw 代码 <span aria-hidden="true">+</span></summary><pre id="source-code" tabindex="0" aria-label="Excalidraw 组件代码"></pre></details>
-    </div>
-    <div class="detail-bottom"><p>复制 Excalidraw → 回到画布 → <kbd>Ctrl / ⌘ V</kbd></p><div><button id="detail-prev" type="button" class="nav-button" aria-label="上一个组件">← 上一个</button><button id="detail-next" type="button" class="nav-button" aria-label="下一个组件">下一个 →</button></div></div>
-  </dialog>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-</body>
-</html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f8f2">
+  <meta name="description" content="36 个可以直接拿走的操作系统手绘组件。复制到 Excalidraw 继续编辑，或复制、下载 SVG 和 PNG，用在你的笔记、课件和文章里。">
+  <title>OS Sketch Kit — 把操作系统，画明白。</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://apple-art.github.io/os-excalidraw-kit/">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="preload" href="assets/fonts/hand.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="assets/catalog.js?v=3" defer></script>
+  <script src="app.js" defer></script>
+  <script src="assets/vendor/rough.js" defer></script>
+  <script src="sketch.js?v=3" defer></script>
+</head>
+<body>
+  <a href="#library" class="skip-link">跳到组件素材</a>
+  <header class="site-header shell">
+    <a class="brand" href="./" aria-label="OS Sketch Kit 首页">
+      <svg class="brand-mark" viewBox="0 0 42 42" fill="none" aria-hidden="true"><path d="m8 8 27-1 1 27-28 1V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m5 12-1 26 28 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="m14 16 14-1m-14 7 10 1m-10 5 16-1" stroke="#1971c2" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>OS <span class="brand-hand">Sketch</span> Kit<span class="brand-small">操作系统手绘组件</span></span>
+    </a>
+    <nav class="header-nav" aria-label="主导航">
+      <a href="#how-to">怎么用</a>
+      <a href="assets/os-components.excalidrawlib?v=3" download>整套素材库 <span aria-hidden="true">↓</span></a>
+      <a class="github-link" href="https://github.com/apple-art/os-excalidraw-kit" target="_blank" rel="noopener noreferrer">GitHub <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> 为你的下一张解释图准备</div>
+        <h1 id="hero-title">把操作系统，<br><span class="title-mark">画明白。</span></h1>
+        <p class="hero-description">任务、队列、CPU，还有那些不好画的概念。<br>36 个手绘组件，挑一个，直接拿走。</p>
+        <div class="hero-actions">
+          <a href="#library" class="button button-primary">看看组件 <span aria-hidden="true">↘</span></a>
+          <a href="downloads/os-excalidraw-kit.zip?v=3" class="button button-paper" download>打包带走 <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M11 3v11m-4-4 4 4 4-4M4 16v3h14v-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="hero-note"><span class="note-line" aria-hidden="true"></span>可编辑的 Excalidraw · SVG · PNG</div>
+      </div>
+      <div class="hero-board" aria-label="任务、CPU、调频策略与时钟组件预览">
+        <span class="board-pin" aria-hidden="true"></span>
+        <span class="board-kicker">✎ 把想法摊开来画</span>
+        <div class="specimen specimen-task"><img src="assets/01-task.svg?v=3" alt="任务卡片" fetchpriority="high" width="250" height="230"><span>一个任务</span></div>
+        <div class="specimen specimen-cpu"><img src="assets/02-cpu.svg?v=3" alt="CPU 核心" fetchpriority="high" width="250" height="250"><span>一颗 CPU</span></div>
+        <div class="specimen specimen-governor"><img src="assets/04-governor.svg?v=3" alt="调频 governor" width="250" height="220"><span>一点控制</span></div>
+        <div class="specimen specimen-clock"><img src="assets/14-clock.svg?v=3" alt="时钟与时间片" width="280" height="210"><span>一些时间</span></div>
+        <svg class="board-arrow" viewBox="0 0 100 80" fill="none" aria-hidden="true"><path d="M14 13c40-5 64 17 58 50M60 52l12 13 11-13" stroke="#d16b23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="board-footnote">你的图，从这里开始。</span>
+      </div>
+    </section>
+
+    <section id="library" class="library" aria-labelledby="library-title">
+      <div class="library-top shell">
+        <div class="section-title"><span class="index-mark">01 /</span><h2 id="library-title">挑一块，开始画</h2></div>
+        <p>独立组件，随你组合 <span class="hand-arrow" aria-hidden="true">↴</span></p>
+      </div>
+      <div class="toolbar-bar">
+        <div class="toolbar shell">
+          <nav id="filters" class="filters" aria-label="组件分类">
+            <button type="button" data-filter="all" aria-pressed="true">全部组件 <span>36</span></button>
+            <button type="button" data-filter="system" aria-pressed="false">系统对象</button>
+            <button type="button" data-filter="scheduling" aria-pressed="false">任务调度</button>
+            <button type="button" data-filter="frequency" aria-pressed="false">调频与功耗</button>
+          </nav>
+          <label class="search-field" for="search">
+            <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M15.5 9.5a6 6 0 1 1-12 0 6 6 0 0 1 12 0Zm-1 5 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span class="sr-only">搜索组件</span>
+            <input id="search" type="search" placeholder="找找 CPU、队列、锁…" autocomplete="off" spellcheck="false">
+            <kbd aria-hidden="true">/</kbd>
+          </label>
+        </div>
+      </div>
+      <div class="shell catalog-shell">
+        <div class="catalog-meta"><p id="result-count" role="status" aria-live="polite">36 个组件，等你挑选</p><p class="catalog-tip">↙ 点图放大，点按钮复制</p></div>
+        <div id="catalog" class="catalog"></div>
+        <div id="empty" class="empty-state" hidden><span class="empty-doodle" aria-hidden="true">( ? )</span><h3>暂时没找到这一块</h3><p>试试短一点的关键词，或切回全部组件。</p></div>
+        <noscript><p class="noscript-note">请开启 JavaScript 浏览和复制组件，也可以<a href="downloads/os-excalidraw-kit.zip?v=3" download>直接下载整套素材</a>。</p></noscript>
+      </div>
+    </section>
+
+    <section id="how-to" class="how-to shell" aria-labelledby="how-title">
+      <div class="how-heading"><span class="index-mark">02 /</span><h2 id="how-title">拿走以后，怎么用？</h2><svg viewBox="0 0 110 44" fill="none" aria-hidden="true"><path d="M4 16c35 22 71 13 96-8M85 9l17-2-2 15" stroke="#d16b23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="how-grid">
+        <article><span class="step-number">1</span><div><h3>继续画，选 Excalidraw</h3><p>复制后，到 Excalidraw 画布按 <kbd>Ctrl</kbd> / <kbd>⌘</kbd> + <kbd>V</kbd>。框、线和文字都能接着改。</p></div></article>
+        <article><span class="step-number">2</span><div><h3>放大用，选 SVG</h3><p>适合笔记、课件和文章。若浏览器不支持复制 SVG 图像，会为你复制 SVG 源码。</p></div></article>
+        <article><span class="step-number">3</span><div><h3>随手贴，选 PNG</h3><p>复制图片，粘到你正在写的地方。不支持图片复制时，也可以直接下载。</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p><span class="footer-doodle" aria-hidden="true">✎</span> 好的解释，从一张图开始。</p>
+    <div><a href="assets/os-components.excalidrawlib?v=3" download>下载素材库</a><a href="https://github.com/apple-art/os-excalidraw-kit" target="_blank" rel="noopener noreferrer">源码与反馈 ↗</a></div>
+  </footer>
+
+  <dialog id="detail" class="detail-dialog" aria-labelledby="detail-title">
+    <div class="detail-heading"><div><span class="detail-eyebrow">OS SKETCH KIT <span id="detail-counter"></span></span><h2 id="detail-title">组件预览</h2></div><button id="detail-close" class="icon-button" type="button" aria-label="关闭预览"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
+    <div id="detail-stage" class="detail-stage"><img id="detail-image" src="assets/01-task.svg?v=3" alt=""><button id="toggle-grid" class="grid-toggle" type="button" aria-pressed="false"><span aria-hidden="true">▦</span> 透明网格</button></div>
+    <div class="detail-body"><div id="detail-tags" class="card-tags"></div><p id="detail-description"></p>
+      <div class="detail-copy-actions"><button id="copy-code" class="button button-primary" type="button">复制 Excalidraw</button><button id="copy-svg" class="button button-paper" type="button">复制 SVG</button><button id="copy-png" class="button button-paper" type="button">复制 PNG</button></div>
+      <div class="detail-downloads"><span>或者下载：</span><a id="download-native" download>原生文件</a><a id="download-svg" download>SVG</a><a id="download-png" download>PNG</a></div>
+      <details id="source-panel" class="source-panel"><summary>查看 Excalidraw 代码 <span aria-hidden="true">+</span></summary><pre id="source-code" tabindex="0" aria-label="Excalidraw 组件代码"></pre></details>
+    </div>
+    <div class="detail-bottom"><p>复制 Excalidraw → 回到画布 → <kbd>Ctrl / ⌘ V</kbd></p><div><button id="detail-prev" type="button" class="nav-button" aria-label="上一个组件">← 上一个</button><button id="detail-next" type="button" class="nav-button" aria-label="下一个组件">下一个 →</button></div></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

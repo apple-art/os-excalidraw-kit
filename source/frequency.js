@@ -1,16 +1,19 @@
 import {drawing,C} from './shapes.js';
 
-const purple='#7950a0',palePurple='#f3edfa',red='#c34848',paleRed='#fceaea';
+const red='#c34848',paleRed='#fceaea';
 const scene=(d,id,title,description)=>({id,title,description,elements:d.elements});
 
 function migration(){
  const d=drawing('migration');
  d.group('migration',()=>{
-  d.box(43,158,88,65,'CPU 0',C.paleBlue,C.blue,{roundness:null,label:{text:'CPU 0',fontSize:21,fontFamily:5,strokeColor:C.blue}});
-  d.box(244,158,88,65,'CPU 1',C.paleTeal,C.teal,{roundness:null,label:{text:'CPU 1',fontSize:21,fontFamily:5,strokeColor:C.teal}});
-  d.box(43,63,88,58,'A',C.paleOrange,C.orange);
-  d.line([[87,128],[87,148]],C.muted,{strokeStyle:'dashed'});
-  d.arrow([[144,91],[288,91],[288,147]],C.orange);
+  d.line([[42,164],[136,162],[138,226],[44,229],[42,164]],C.blue,{backgroundColor:C.paleBlue});
+  d.line([[231,162],[326,165],[324,229],[229,226],[231,162]],C.teal,{backgroundColor:C.paleTeal});
+  d.text(54,181,'CPU 0',25,C.blue);d.text(242,181,'CPU 1',25,C.teal);
+  d.line([[52,48],[121,50],[119,109],[50,107],[52,48]],C.orange,{backgroundColor:C.paleOrange});
+  d.text(77,62,'A',30,C.orange);
+  d.line([[86,117],[87,153]],C.muted,{strokeStyle:'dashed'});
+  d.arrow([[133,77],[205,76],[278,78],[278,150]],C.orange);
+  d.line([[151,68],[195,67]],C.orange,{strokeWidth:1.5});
  });
  return scene(d,'19-migration','任务迁移','任务从一个 CPU 的运行队列迁到另一个；实际迁移受有效亲和性、拓扑和调度策略约束。');
 }
@@ -18,15 +21,16 @@ function migration(){
 function utilization(){
  const d=drawing('utilization');
  d.group('utilization',()=>{
-  const arc=Array.from({length:13},(_,i)=>{const a=Math.PI+i*Math.PI/12;return [180+114*Math.cos(a),190+114*Math.sin(a)];});
-  d.line(arc,C.ink,{roundness:{type:2},roughness:.8});
+  const arc=Array.from({length:15},(_,i)=>{const a=Math.PI+i*Math.PI/14;return [180+114*Math.cos(a),190+114*Math.sin(a)];});
+  d.line(arc,C.ink,{roundness:{type:2}});
+  d.line([[70,198],[292,197]],C.ink,{strokeWidth:1.5});
   for(let i=0;i<=6;i++){
    const a=Math.PI+i*Math.PI/6;
-   d.line([[180+98*Math.cos(a),190+98*Math.sin(a)],[180+109*Math.cos(a),190+109*Math.sin(a)]],i>=5?C.orange:C.ink);
+   d.line([[180+96*Math.cos(a),190+96*Math.sin(a)],[180+108*Math.cos(a),190+108*Math.sin(a)]],i>=5?C.orange:C.ink);
   }
-  d.line([[180,190],[236,115]],C.blue,{strokeWidth:3});
-  d.add('ellipse',{x:173,y:183,width:14,height:14,backgroundColor:C.paleBlue,strokeColor:C.blue});
-  d.text(57,212,'0',23,C.muted);d.text(292,212,'1',23,C.muted);d.text(157,222,'util',26,C.blue);
+  d.line([[178,185],[226,114],[184,190],[178,185]],C.blue,{backgroundColor:C.paleBlue});
+  d.add('ellipse',{x:172,y:181,width:17,height:17,backgroundColor:C.paleBlue,strokeColor:C.blue});
+  d.text(59,210,'0',25,C.muted);d.text(291,210,'1',25,C.muted);d.text(154,220,'util',27,C.blue);
  });
  return scene(d,'20-utilization','CPU 利用率','CPU 忙碌程度的抽象仪表；调度器用于调频的利用率信号不一定等同于简单采样的 CPU 百分比。');
 }
@@ -34,12 +38,15 @@ function utilization(){
 function frequency(){
  const d=drawing('frequency');
  d.group('frequency',()=>{
-  const points=[[43,162]];
-  for(let i=0;i<5;i++){const x=65+i*54;points.push([x,162],[x,99],[x+27,99],[x+27,162]);}
-  points.push([335,162]);
-  d.line(points,C.blue,{roughness:.75});
-  d.line([[65,65],[119,65]],C.orange);d.line([[65,56],[65,74]],C.orange);d.line([[119,56],[119,74]],C.orange);
-  d.text(84,25,'T',25,C.orange);d.text(123,211,'f = 1 / T',27,C.blue);
+  const points=[[39,163]];
+  for(let i=0;i<5;i++){const x=63+i*55;points.push([x,163],[x,98],[x+28,98],[x+28,163]);}
+  points.push([338,163]);
+  d.line(points,C.blue);
+  d.line([[63,65],[118,65]],C.orange);
+  d.line([[63,56],[63,74]],C.orange);d.line([[118,56],[118,74]],C.orange);
+  d.text(82,25,'T',27,C.orange);
+  d.text(122,208,'f = 1 / T',28,C.blue);
+  d.line([[112,245],[245,247]],C.blue,{strokeWidth:1.5});
  });
  return scene(d,'21-frequency','CPU 频率','连续方波和周期 T 的抽象图标，f = 1/T；时钟频率不是实际任务性能的唯一决定因素。');
 }
@@ -47,10 +54,14 @@ function frequency(){
 function driver(){
  const d=drawing('driver');
  d.group('cpufreq-driver',()=>{
-  d.box(73,45,234,65,'CPUFreq driver',palePurple,purple,{label:{text:'CPUFreq driver',fontSize:23,fontFamily:5,strokeColor:purple}});
-  d.line([[155,113],[155,156]],purple);d.line([[224,113],[224,156]],C.teal);
-  d.box(103,161,174,67,'HW',C.paleTeal,C.teal,{roundness:null});
-  for(let i=0;i<5;i++)d.line([[121+i*34,229],[121+i*34,244]],C.teal);
+  d.line([[53,42],[307,45],[305,109],[56,107],[53,42]],C.purple,{backgroundColor:C.palePurple});
+  d.text(74,59,'CPUFreq driver',26,C.purple);
+  d.line([[132,112],[134,133],[154,145]],C.purple);
+  d.line([[226,113],[224,133],[204,145]],C.teal);
+  d.line([[100,151],[260,153],[262,221],[99,219],[100,151]],C.teal,{backgroundColor:C.paleTeal});
+  d.line([[112,162],[248,163],[249,209],[113,208],[112,162]],C.teal,{strokeWidth:1.5});
+  d.text(157,171,'HW',29,C.teal);
+  [119,150,181,212,242].forEach((x,i)=>d.line([[x,222],[x+(i%2?1:-1),239]],C.teal));
  });
  return scene(d,'22-cpufreq-driver','CPUFreq 驱动','软件与硬件接口之间的桥接图标；驱动将性能请求交给平台，实际频率还受硬件、温度和功耗限制。');
 }
@@ -58,11 +69,14 @@ function driver(){
 function power(){
  const d=drawing('power');
  d.group('power',()=>{
-  d.box(46,80,250,119,'','#ffffff',C.ink,{roundness:{type:3}});
-  d.box(299,112,18,51,'',C.paleOrange,C.orange,{roundness:null});
-  [0,1,2].forEach(i=>d.box(63+i*73,98,55,81,'',i<2?C.paleTeal:'transparent',i<2?C.teal:'#c5cbd0',{roundness:null}));
-  d.line([[191,38],[142,133],[181,133],[156,229],[234,112],[194,112],[222,38],[191,38]],C.orange,{backgroundColor:C.paleOrange,roughness:.85});
-  d.text(121,250,'Power / W',25,C.ink);
+  d.line([[45,77],[296,80],[298,194],[48,198],[45,77]],C.ink);
+  d.line([[299,108],[319,110],[318,162],[299,163]],C.ink);
+  d.line([[61,95],[113,96],[112,179],[63,180],[61,95]],C.teal,{backgroundColor:C.paleTeal});
+  d.line([[123,96],[175,95],[176,179],[124,180],[123,96]],C.teal,{backgroundColor:C.paleTeal});
+  d.line([[187,96],[239,97],[238,179],[188,180],[187,96]],C.teal,{backgroundColor:C.paleTeal});
+  d.line([[250,97],[280,98],[281,178],[251,179],[250,97]],C.muted);
+  d.line([[187,38],[143,134],[180,133],[157,229],[232,111],[194,111],[219,39],[187,38]],C.orange,{backgroundColor:C.paleOrange});
+  d.text(119,240,'Power / W',26,C.ink);
  });
  return scene(d,'23-power','CPU 功耗','用于功率的电源图标，W 是功率单位；能耗应另用 J 等单位表示。');
 }
@@ -70,14 +84,14 @@ function power(){
 function thermal(){
  const d=drawing('thermal');
  d.group('thermal',()=>{
-  const outline=[[119,176],[119,65],[124,49],[140,43],[156,49],[161,65],[161,176],[178,193],[180,215],[166,236],[141,244],[116,236],[101,216],[103,194],[119,176]];
-  d.line(outline,C.ink,{backgroundColor:'#ffffff',roundness:{type:2},roughness:.7});
-  d.line([[140,97],[140,211]],red,{strokeWidth:9,roughness:.7});
-  d.add('ellipse',{x:121,y:193,width:39,height:39,backgroundColor:paleRed,strokeColor:red,strokeWidth:2});
-  [83,115,147].forEach(y=>d.line([[180,y],[203,y]],C.ink));
-  d.line([[242,151],[235,139],[240,126],[247,113],[241,99]],C.orange,{roundness:{type:2},roughness:.65});
-  d.line([[281,151],[274,139],[279,126],[286,113],[280,99]],C.orange,{roundness:{type:2},roughness:.65});
-  d.text(219,191,'°C',27,red);
+  const outline=[[119,176],[118,66],[122,52],[132,44],[144,42],[155,47],[161,60],[162,176],[174,187],[180,202],[178,219],[167,234],[151,243],[134,243],[118,236],[106,224],[101,209],[104,192],[119,176]];
+  d.line(outline,C.ink,{roundness:{type:2}});
+  d.line([[140,95],[140,208]],red,{strokeWidth:8});
+  d.add('ellipse',{x:121,y:193,width:39,height:39,backgroundColor:paleRed,strokeColor:red});
+  [82,114,146].forEach((y,i)=>d.line([[178,y],[201+(i%2)*3,y+1]],C.ink));
+  d.line([[238,153],[232,140],[238,126],[245,112],[239,98]],C.orange,{roundness:{type:2}});
+  d.line([[278,152],[272,139],[278,125],[284,111],[279,97]],C.orange,{roundness:{type:2}});
+  d.text(220,190,'°C',28,red);
  });
  return scene(d,'24-thermal','温度与热约束','温度计与热流的抽象图标；热限制的阈值与性能控制方式依具体平台而异。');
 }

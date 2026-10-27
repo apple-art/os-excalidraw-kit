@@ -2,7 +2,7 @@
 
 **[访问组件网站](https://apple-art.github.io/os-excalidraw-kit/)**
 
-24 个操作系统手绘组件：任务、进程、线程、CPU、队列、调度器、锁、时钟、利用率、调频和功耗等。支持搜索分类、放大预览，以及三种复制方式：
+36 个操作系统手绘组件：任务、进程、线程、CPU、队列、调度器、锁、时钟、利用率、调频和功耗等。支持搜索分类、放大预览，以及三种复制方式：
 
 - **Excalidraw**：复制原生图元，到 Excalidraw 画布粘贴，框、线和文字可继续编辑。
 - **SVG**：浏览器支持时复制 SVG 图像及源码，否则复制 SVG 源码；也可以下载透明底文件。
@@ -26,7 +26,7 @@ python -m http.server 8000
 
 - `index.html`、`styles.css`、`app.js`：网页界面与交互。
 - `sketch.js`：使用本地 Rough.js 给卡片和控件绘制手绘双描线。
-- `assets/`：24 套组件、原生素材库、分类数据与本地手写字体。
+- `assets/`：36 套组件、原生素材库、分类数据与本地手写字体。
 - `source/`：组件生成代码，以及调用 Excalidraw 官方 API 的导出工具。
 - `scripts/build-catalog.mjs`：从素材元数据及原生文件生成网页目录和素材库。
 - `downloads/`：整套素材与组件代码压缩包。

@@ -1,22 +1,22 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "cpu-1",
-      "type": "rectangle",
-      "x": 92,
-      "y": 54,
-      "width": 144,
-      "height": 144,
+      "type": "line",
+      "x": 94,
+      "y": 50,
+      "width": 160,
+      "height": 160,
       "angle": 0,
-      "strokeColor": "#087f5b",
-      "backgroundColor": "#e6f4ee",
-      "fillStyle": "solid",
+      "strokeColor": "#21846e",
+      "backgroundColor": "#d9efe8",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -26,32 +26,58 @@
       "roundness": null,
       "seed": 1071,
       "version": 2,
-      "versionNonce": 1101809439,
+      "versionNonce": 511192704,
       "isDeleted": false,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "a-qCfWYv2hnMWy4p6j0ng"
-        }
-      ],
-      "updated": 1793032199989,
+      "boundElements": null,
+      "updated": 1793118045523,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          152,
+          -2
+        ],
+        [
+          156,
+          153
+        ],
+        [
+          153,
+          158
+        ],
+        [
+          -4,
+          156
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
     },
     {
       "id": "cpu-2",
       "type": "line",
-      "x": 80,
-      "y": 82.8,
-      "width": 100,
-      "height": 0,
+      "x": 74,
+      "y": 73,
+      "width": 18,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -61,10 +87,10 @@
       "roundness": null,
       "seed": 1142,
       "version": 2,
-      "versionNonce": 863403601,
+      "versionNonce": 1195899264,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -73,8 +99,8 @@
           0
         ],
         [
-          12,
-          0
+          18,
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -86,17 +112,17 @@
     {
       "id": "cpu-3",
       "type": "line",
-      "x": 236,
-      "y": 82.8,
-      "width": 100,
-      "height": 0,
+      "x": 249,
+      "y": 73,
+      "width": 17,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -106,10 +132,10 @@
       "roundness": null,
       "seed": 1213,
       "version": 2,
-      "versionNonce": 1140067135,
+      "versionNonce": 745430656,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -118,8 +144,8 @@
           0
         ],
         [
-          12,
-          0
+          17,
+          -1
         ]
       ],
       "lastCommittedPoint": null,
@@ -131,17 +157,17 @@
     {
       "id": "cpu-4",
       "type": "line",
-      "x": 120.8,
-      "y": 42,
-      "width": 100,
-      "height": 0,
+      "x": 115,
+      "y": 33,
+      "width": 1,
+      "height": 16,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -151,10 +177,10 @@
       "roundness": null,
       "seed": 1284,
       "version": 2,
-      "versionNonce": 764709937,
+      "versionNonce": 1594673536,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -163,8 +189,8 @@
           0
         ],
         [
-          0,
-          12
+          1,
+          16
         ]
       ],
       "lastCommittedPoint": null,
@@ -176,17 +202,17 @@
     {
       "id": "cpu-5",
       "type": "line",
-      "x": 120.8,
-      "y": 198,
-      "width": 100,
-      "height": 0,
+      "x": 115,
+      "y": 207,
+      "width": 1,
+      "height": 17,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -196,10 +222,10 @@
       "roundness": null,
       "seed": 1355,
       "version": 2,
-      "versionNonce": 216943455,
+      "versionNonce": 2082377344,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -208,8 +234,8 @@
           0
         ],
         [
-          0,
-          12
+          -1,
+          17
         ]
       ],
       "lastCommittedPoint": null,
@@ -221,17 +247,17 @@
     {
       "id": "cpu-6",
       "type": "line",
-      "x": 80,
-      "y": 111.6,
-      "width": 100,
-      "height": 0,
+      "x": 71,
+      "y": 106,
+      "width": 21,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -241,10 +267,10 @@
       "roundness": null,
       "seed": 1426,
       "version": 2,
-      "versionNonce": 947248657,
+      "versionNonce": 1169660288,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -253,8 +279,8 @@
           0
         ],
         [
-          12,
-          0
+          21,
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -266,17 +292,17 @@
     {
       "id": "cpu-7",
       "type": "line",
-      "x": 236,
-      "y": 111.6,
-      "width": 100,
-      "height": 0,
+      "x": 249,
+      "y": 106,
+      "width": 20,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -286,10 +312,10 @@
       "roundness": null,
       "seed": 1497,
       "version": 2,
-      "versionNonce": 418088831,
+      "versionNonce": 1179172480,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -298,8 +324,8 @@
           0
         ],
         [
-          12,
-          0
+          20,
+          -1
         ]
       ],
       "lastCommittedPoint": null,
@@ -311,17 +337,17 @@
     {
       "id": "cpu-8",
       "type": "line",
-      "x": 149.6,
-      "y": 42,
-      "width": 100,
-      "height": 0,
+      "x": 148,
+      "y": 30,
+      "width": 1,
+      "height": 19,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -331,10 +357,10 @@
       "roundness": null,
       "seed": 1568,
       "version": 2,
-      "versionNonce": 1662120945,
+      "versionNonce": 780691840,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -343,8 +369,8 @@
           0
         ],
         [
-          0,
-          12
+          1,
+          19
         ]
       ],
       "lastCommittedPoint": null,
@@ -356,17 +382,17 @@
     {
       "id": "cpu-9",
       "type": "line",
-      "x": 149.6,
-      "y": 198,
-      "width": 100,
-      "height": 0,
+      "x": 148,
+      "y": 207,
+      "width": 1,
+      "height": 20,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -376,10 +402,10 @@
       "roundness": null,
       "seed": 1639,
       "version": 2,
-      "versionNonce": 103563167,
+      "versionNonce": 732753536,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -388,8 +414,8 @@
           0
         ],
         [
-          0,
-          12
+          -1,
+          20
         ]
       ],
       "lastCommittedPoint": null,
@@ -401,17 +427,17 @@
     {
       "id": "cpu-10",
       "type": "line",
-      "x": 80,
-      "y": 140.4,
-      "width": 100,
-      "height": 0,
+      "x": 74,
+      "y": 139,
+      "width": 18,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -421,10 +447,10 @@
       "roundness": null,
       "seed": 1710,
       "version": 2,
-      "versionNonce": 1903185361,
+      "versionNonce": 1690253696,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -433,8 +459,8 @@
           0
         ],
         [
-          12,
-          0
+          18,
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -446,17 +472,17 @@
     {
       "id": "cpu-11",
       "type": "line",
-      "x": 236,
-      "y": 140.4,
-      "width": 100,
-      "height": 0,
+      "x": 249,
+      "y": 139,
+      "width": 17,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -466,10 +492,10 @@
       "roundness": null,
       "seed": 1781,
       "version": 2,
-      "versionNonce": 1457583039,
+      "versionNonce": 889921152,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -478,8 +504,8 @@
           0
         ],
         [
-          12,
-          0
+          17,
+          -1
         ]
       ],
       "lastCommittedPoint": null,
@@ -491,17 +517,17 @@
     {
       "id": "cpu-12",
       "type": "line",
-      "x": 178.4,
-      "y": 42,
-      "width": 100,
-      "height": 0,
+      "x": 181,
+      "y": 33,
+      "width": 1,
+      "height": 16,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -511,10 +537,10 @@
       "roundness": null,
       "seed": 1852,
       "version": 2,
-      "versionNonce": 984116145,
+      "versionNonce": 1268517248,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -523,8 +549,8 @@
           0
         ],
         [
-          0,
-          12
+          1,
+          16
         ]
       ],
       "lastCommittedPoint": null,
@@ -536,17 +562,17 @@
     {
       "id": "cpu-13",
       "type": "line",
-      "x": 178.4,
-      "y": 198,
-      "width": 100,
-      "height": 0,
+      "x": 181,
+      "y": 207,
+      "width": 1,
+      "height": 17,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -556,10 +582,10 @@
       "roundness": null,
       "seed": 1923,
       "version": 2,
-      "versionNonce": 1932141535,
+      "versionNonce": 1394822784,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -568,8 +594,8 @@
           0
         ],
         [
-          0,
-          12
+          -1,
+          17
         ]
       ],
       "lastCommittedPoint": null,
@@ -581,17 +607,17 @@
     {
       "id": "cpu-14",
       "type": "line",
-      "x": 80,
-      "y": 169.2,
-      "width": 100,
-      "height": 0,
+      "x": 71,
+      "y": 172,
+      "width": 21,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -601,10 +627,10 @@
       "roundness": null,
       "seed": 1994,
       "version": 2,
-      "versionNonce": 1189203345,
+      "versionNonce": 1583274368,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -613,8 +639,8 @@
           0
         ],
         [
-          12,
-          0
+          21,
+          1
         ]
       ],
       "lastCommittedPoint": null,
@@ -626,17 +652,17 @@
     {
       "id": "cpu-15",
       "type": "line",
-      "x": 236,
-      "y": 169.2,
-      "width": 100,
-      "height": 0,
+      "x": 249,
+      "y": 172,
+      "width": 20,
+      "height": 1,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -646,10 +672,10 @@
       "roundness": null,
       "seed": 2065,
       "version": 2,
-      "versionNonce": 1796755455,
+      "versionNonce": 1588952704,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -658,8 +684,8 @@
           0
         ],
         [
-          12,
-          0
+          20,
+          -1
         ]
       ],
       "lastCommittedPoint": null,
@@ -671,17 +697,17 @@
     {
       "id": "cpu-16",
       "type": "line",
-      "x": 207.2,
-      "y": 42,
-      "width": 100,
-      "height": 0,
+      "x": 214,
+      "y": 30,
+      "width": 1,
+      "height": 19,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -691,10 +717,10 @@
       "roundness": null,
       "seed": 2136,
       "version": 2,
-      "versionNonce": 760476529,
+      "versionNonce": 810002816,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -703,8 +729,8 @@
           0
         ],
         [
-          0,
-          12
+          1,
+          19
         ]
       ],
       "lastCommittedPoint": null,
@@ -716,17 +742,17 @@
     {
       "id": "cpu-17",
       "type": "line",
-      "x": 207.2,
-      "y": 198,
-      "width": 100,
-      "height": 0,
+      "x": 214,
+      "y": 207,
+      "width": 1,
+      "height": 20,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 2,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "cpu-CPU"
@@ -736,10 +762,10 @@
       "roundness": null,
       "seed": 2207,
       "version": 2,
-      "versionNonce": 2024536095,
+      "versionNonce": 411152000,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199989,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "points": [
@@ -748,8 +774,8 @@
           0
         ],
         [
-          0,
-          12
+          -1,
+          20
         ]
       ],
       "lastCommittedPoint": null,
@@ -759,46 +785,104 @@
       "endArrowhead": null
     },
     {
-      "id": "a-qCfWYv2hnMWy4p6j0ng",
-      "type": "text",
-      "x": 137.2590103149414,
-      "y": 109.75,
-      "width": 53.48197937011719,
-      "height": 32.5,
+      "id": "cpu-18",
+      "type": "line",
+      "x": 109,
+      "y": 68,
+      "width": 124,
+      "height": 124,
       "angle": 0,
-      "strokeColor": "#087f5b",
+      "strokeColor": "#21846e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "fillStyle": "hachure",
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
-      "groupIds": [],
+      "groupIds": [
+        "cpu-CPU"
+      ],
       "frameId": null,
       "index": "aH",
       "roundness": null,
-      "seed": 843472209,
-      "version": 3,
-      "versionNonce": 621841201,
+      "seed": 2278,
+      "version": 2,
+      "versionNonce": 1821800832,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032199990,
+      "updated": 1793118045523,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          121,
+          -2
+        ],
+        [
+          123,
+          120
+        ],
+        [
+          -1,
+          122
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "cpu-19",
+      "type": "text",
+      "x": 133,
+      "y": 103,
+      "width": 65.82398986816406,
+      "height": 40,
+      "angle": 0,
+      "strokeColor": "#21846e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "cpu-CPU"
+      ],
+      "frameId": null,
+      "index": "aI",
+      "roundness": null,
+      "seed": 2349,
+      "version": 2,
+      "versionNonce": 692575872,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118045523,
       "link": null,
       "locked": false,
       "text": "CPU",
-      "fontSize": 26,
+      "fontSize": 32,
       "fontFamily": 5,
-      "textAlign": "center",
-      "verticalAlign": "middle",
-      "containerId": "cpu-1",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
       "originalText": "CPU",
       "autoResize": true,
       "lineHeight": 1.25
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }

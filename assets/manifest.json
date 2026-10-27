@@ -10,9 +10,9 @@
       "进程",
       "就绪"
     ],
-    "svg": "assets/01-task.svg",
-    "png": "assets/01-task.png",
-    "native": "assets/01-task.excalidraw"
+    "svg": "assets/01-task.svg?v=3",
+    "png": "assets/01-task.png?v=3",
+    "native": "assets/01-task.excalidraw?v=3"
   },
   {
     "id": "02-cpu",
@@ -24,9 +24,9 @@
       "核心",
       "处理器"
     ],
-    "svg": "assets/02-cpu.svg",
-    "png": "assets/02-cpu.png",
-    "native": "assets/02-cpu.excalidraw"
+    "svg": "assets/02-cpu.svg?v=3",
+    "png": "assets/02-cpu.png?v=3",
+    "native": "assets/02-cpu.excalidraw?v=3"
   },
   {
     "id": "03-runqueue",
@@ -38,9 +38,9 @@
       "runqueue",
       "就绪"
     ],
-    "svg": "assets/03-runqueue.svg",
-    "png": "assets/03-runqueue.png",
-    "native": "assets/03-runqueue.excalidraw"
+    "svg": "assets/03-runqueue.svg?v=3",
+    "png": "assets/03-runqueue.png?v=3",
+    "native": "assets/03-runqueue.excalidraw?v=3"
   },
   {
     "id": "04-governor",
@@ -52,9 +52,9 @@
       "调频",
       "DVFS"
     ],
-    "svg": "assets/04-governor.svg",
-    "png": "assets/04-governor.png",
-    "native": "assets/04-governor.excalidraw"
+    "svg": "assets/04-governor.svg?v=3",
+    "png": "assets/04-governor.png?v=3",
+    "native": "assets/04-governor.excalidraw?v=3"
   },
   {
     "id": "05-process",
@@ -66,9 +66,9 @@
       "process",
       "地址空间"
     ],
-    "svg": "assets/05-process.svg",
-    "png": "assets/05-process.png",
-    "native": "assets/05-process.excalidraw"
+    "svg": "assets/05-process.svg?v=3",
+    "png": "assets/05-process.png?v=3",
+    "native": "assets/05-process.excalidraw?v=3"
   },
   {
     "id": "06-thread",
@@ -81,9 +81,9 @@
       "共享内存",
       "栈"
     ],
-    "svg": "assets/06-thread.svg",
-    "png": "assets/06-thread.png",
-    "native": "assets/06-thread.excalidraw"
+    "svg": "assets/06-thread.svg?v=3",
+    "png": "assets/06-thread.png?v=3",
+    "native": "assets/06-thread.excalidraw?v=3"
   },
   {
     "id": "07-pcb",
@@ -95,9 +95,9 @@
       "进程",
       "上下文"
     ],
-    "svg": "assets/07-pcb.svg",
-    "png": "assets/07-pcb.png",
-    "native": "assets/07-pcb.excalidraw"
+    "svg": "assets/07-pcb.svg?v=3",
+    "png": "assets/07-pcb.png?v=3",
+    "native": "assets/07-pcb.excalidraw?v=3"
   },
   {
     "id": "08-multicore",
@@ -109,9 +109,9 @@
       "CPU",
       "并行"
     ],
-    "svg": "assets/08-multicore.svg",
-    "png": "assets/08-multicore.png",
-    "native": "assets/08-multicore.excalidraw"
+    "svg": "assets/08-multicore.svg?v=3",
+    "png": "assets/08-multicore.png?v=3",
+    "native": "assets/08-multicore.excalidraw?v=3"
   },
   {
     "id": "09-io-device",
@@ -123,9 +123,9 @@
       "设备",
       "输入输出"
     ],
-    "svg": "assets/09-io-device.svg",
-    "png": "assets/09-io-device.png",
-    "native": "assets/09-io-device.excalidraw"
+    "svg": "assets/09-io-device.svg?v=3",
+    "png": "assets/09-io-device.png?v=3",
+    "native": "assets/09-io-device.excalidraw?v=3"
   },
   {
     "id": "10-memory",
@@ -137,9 +137,9 @@
       "RAM",
       "缓存"
     ],
-    "svg": "assets/10-memory.svg",
-    "png": "assets/10-memory.png",
-    "native": "assets/10-memory.excalidraw"
+    "svg": "assets/10-memory.svg?v=3",
+    "png": "assets/10-memory.png?v=3",
+    "native": "assets/10-memory.excalidraw?v=3"
   },
   {
     "id": "11-interrupt",
@@ -151,9 +151,9 @@
       "中断",
       "事件"
     ],
-    "svg": "assets/11-interrupt.svg",
-    "png": "assets/11-interrupt.png",
-    "native": "assets/11-interrupt.excalidraw"
+    "svg": "assets/11-interrupt.svg?v=3",
+    "png": "assets/11-interrupt.png?v=3",
+    "native": "assets/11-interrupt.excalidraw?v=3"
   },
   {
     "id": "12-scheduler",
@@ -165,9 +165,9 @@
       "scheduler",
       "选择"
     ],
-    "svg": "assets/12-scheduler.svg",
-    "png": "assets/12-scheduler.png",
-    "native": "assets/12-scheduler.excalidraw"
+    "svg": "assets/12-scheduler.svg?v=3",
+    "png": "assets/12-scheduler.png?v=3",
+    "native": "assets/12-scheduler.excalidraw?v=3"
   },
   {
     "id": "13-dispatcher",
@@ -179,9 +179,9 @@
       "dispatcher",
       "执行"
     ],
-    "svg": "assets/13-dispatcher.svg",
-    "png": "assets/13-dispatcher.png",
-    "native": "assets/13-dispatcher.excalidraw"
+    "svg": "assets/13-dispatcher.svg?v=3",
+    "png": "assets/13-dispatcher.png?v=3",
+    "native": "assets/13-dispatcher.excalidraw?v=3"
   },
   {
     "id": "14-clock",
@@ -194,9 +194,9 @@
       "时间片",
       "计时器"
     ],
-    "svg": "assets/14-clock.svg",
-    "png": "assets/14-clock.png",
-    "native": "assets/14-clock.excalidraw"
+    "svg": "assets/14-clock.svg?v=3",
+    "png": "assets/14-clock.png?v=3",
+    "native": "assets/14-clock.excalidraw?v=3"
   },
   {
     "id": "15-mutex",
@@ -208,9 +208,9 @@
       "mutex",
       "临界区"
     ],
-    "svg": "assets/15-mutex.svg",
-    "png": "assets/15-mutex.png",
-    "native": "assets/15-mutex.excalidraw"
+    "svg": "assets/15-mutex.svg?v=3",
+    "png": "assets/15-mutex.png?v=3",
+    "native": "assets/15-mutex.excalidraw?v=3"
   },
   {
     "id": "16-semaphore",
@@ -222,9 +222,9 @@
       "semaphore",
       "许可"
     ],
-    "svg": "assets/16-semaphore.svg",
-    "png": "assets/16-semaphore.png",
-    "native": "assets/16-semaphore.excalidraw"
+    "svg": "assets/16-semaphore.svg?v=3",
+    "png": "assets/16-semaphore.png?v=3",
+    "native": "assets/16-semaphore.excalidraw?v=3"
   },
   {
     "id": "17-priority",
@@ -236,9 +236,9 @@
       "priority",
       "抢占"
     ],
-    "svg": "assets/17-priority.svg",
-    "png": "assets/17-priority.png",
-    "native": "assets/17-priority.excalidraw"
+    "svg": "assets/17-priority.svg?v=3",
+    "png": "assets/17-priority.png?v=3",
+    "native": "assets/17-priority.excalidraw?v=3"
   },
   {
     "id": "18-affinity",
@@ -251,9 +251,9 @@
       "affinity",
       "绑定"
     ],
-    "svg": "assets/18-affinity.svg",
-    "png": "assets/18-affinity.png",
-    "native": "assets/18-affinity.excalidraw"
+    "svg": "assets/18-affinity.svg?v=3",
+    "png": "assets/18-affinity.png?v=3",
+    "native": "assets/18-affinity.excalidraw?v=3"
   },
   {
     "id": "19-migration",
@@ -266,9 +266,9 @@
       "migration",
       "负载均衡"
     ],
-    "svg": "assets/19-migration.svg",
-    "png": "assets/19-migration.png",
-    "native": "assets/19-migration.excalidraw"
+    "svg": "assets/19-migration.svg?v=3",
+    "png": "assets/19-migration.png?v=3",
+    "native": "assets/19-migration.excalidraw?v=3"
   },
   {
     "id": "20-utilization",
@@ -280,9 +280,9 @@
       "utilization",
       "负载"
     ],
-    "svg": "assets/20-utilization.svg",
-    "png": "assets/20-utilization.png",
-    "native": "assets/20-utilization.excalidraw"
+    "svg": "assets/20-utilization.svg?v=3",
+    "png": "assets/20-utilization.png?v=3",
+    "native": "assets/20-utilization.excalidraw?v=3"
   },
   {
     "id": "21-frequency",
@@ -295,9 +295,9 @@
       "周期",
       "DVFS"
     ],
-    "svg": "assets/21-frequency.svg",
-    "png": "assets/21-frequency.png",
-    "native": "assets/21-frequency.excalidraw"
+    "svg": "assets/21-frequency.svg?v=3",
+    "png": "assets/21-frequency.png?v=3",
+    "native": "assets/21-frequency.excalidraw?v=3"
   },
   {
     "id": "22-cpufreq-driver",
@@ -309,9 +309,9 @@
       "驱动",
       "driver"
     ],
-    "svg": "assets/22-cpufreq-driver.svg",
-    "png": "assets/22-cpufreq-driver.png",
-    "native": "assets/22-cpufreq-driver.excalidraw"
+    "svg": "assets/22-cpufreq-driver.svg?v=3",
+    "png": "assets/22-cpufreq-driver.png?v=3",
+    "native": "assets/22-cpufreq-driver.excalidraw?v=3"
   },
   {
     "id": "23-power",
@@ -324,9 +324,9 @@
       "power",
       "电源"
     ],
-    "svg": "assets/23-power.svg",
-    "png": "assets/23-power.png",
-    "native": "assets/23-power.excalidraw"
+    "svg": "assets/23-power.svg?v=3",
+    "png": "assets/23-power.png?v=3",
+    "native": "assets/23-power.excalidraw?v=3"
   },
   {
     "id": "24-thermal",
@@ -339,8 +339,186 @@
       "散热",
       "限频"
     ],
-    "svg": "assets/24-thermal.svg",
-    "png": "assets/24-thermal.png",
-    "native": "assets/24-thermal.excalidraw"
+    "svg": "assets/24-thermal.svg?v=3",
+    "png": "assets/24-thermal.png?v=3",
+    "native": "assets/24-thermal.excalidraw?v=3"
+  },
+  {
+    "id": "25-task-running",
+    "title": "运行中任务",
+    "description": "正在 CPU 上执行的任务状态；运行状态不代表任务已经完成。",
+    "category": "scheduling",
+    "tags": [
+      "任务",
+      "运行",
+      "running",
+      "状态"
+    ],
+    "svg": "assets/25-task-running.svg?v=3",
+    "png": "assets/25-task-running.png?v=3",
+    "native": "assets/25-task-running.excalidraw?v=3"
+  },
+  {
+    "id": "26-task-blocked",
+    "title": "阻塞任务",
+    "description": "等待事件或资源的任务；阻塞并不表示任务出错。",
+    "category": "scheduling",
+    "tags": [
+      "任务",
+      "阻塞",
+      "blocked",
+      "等待"
+    ],
+    "svg": "assets/26-task-blocked.svg?v=3",
+    "png": "assets/26-task-blocked.png?v=3",
+    "native": "assets/26-task-blocked.excalidraw?v=3"
+  },
+  {
+    "id": "27-cpu-idle",
+    "title": "空闲 CPU",
+    "description": "当前没有运行普通任务的 CPU；空闲不必然表示硬件进入休眠状态。",
+    "category": "system",
+    "tags": [
+      "CPU",
+      "空闲",
+      "idle"
+    ],
+    "svg": "assets/27-cpu-idle.svg?v=3",
+    "png": "assets/27-cpu-idle.png?v=3",
+    "native": "assets/27-cpu-idle.excalidraw?v=3"
+  },
+  {
+    "id": "28-big-core",
+    "title": "大核",
+    "description": "大核的教学示意，尺寸用于表达相对计算能力或容量概念，不代表真实晶粒大小，也不指定 ISA。",
+    "category": "system",
+    "tags": [
+      "CPU",
+      "大核",
+      "big",
+      "异构"
+    ],
+    "svg": "assets/28-big-core.svg?v=3",
+    "png": "assets/28-big-core.png?v=3",
+    "native": "assets/28-big-core.excalidraw?v=3"
+  },
+  {
+    "id": "29-little-core",
+    "title": "小核",
+    "description": "小核的教学示意，尺寸用于表达相对计算能力或容量概念，不代表真实晶粒大小，也不指定 ISA。",
+    "category": "system",
+    "tags": [
+      "CPU",
+      "小核",
+      "little",
+      "异构"
+    ],
+    "svg": "assets/29-little-core.svg?v=3",
+    "png": "assets/29-little-core.png?v=3",
+    "native": "assets/29-little-core.excalidraw?v=3"
+  },
+  {
+    "id": "30-cpu-cluster",
+    "title": "CPU 簇",
+    "description": "四个核心组成一个簇的示意；簇的核心数量和组织方式依平台而异。",
+    "category": "system",
+    "tags": [
+      "CPU",
+      "簇",
+      "cluster",
+      "拓扑"
+    ],
+    "svg": "assets/30-cpu-cluster.svg?v=3",
+    "png": "assets/30-cpu-cluster.png?v=3",
+    "native": "assets/30-cpu-cluster.excalidraw?v=3"
+  },
+  {
+    "id": "31-shared-cache",
+    "title": "共享缓存",
+    "description": "可由多个核心共享的缓存示意；缓存是否共享及其实际层级依平台而定。",
+    "category": "system",
+    "tags": [
+      "共享缓存",
+      "cache",
+      "存储"
+    ],
+    "svg": "assets/31-shared-cache.svg?v=3",
+    "png": "assets/31-shared-cache.png?v=3",
+    "native": "assets/31-shared-cache.excalidraw?v=3"
+  },
+  {
+    "id": "32-waitqueue",
+    "title": "等待队列",
+    "description": "等待队列中的任务等待事件或资源，与已就绪、可运行的运行队列不同。",
+    "category": "scheduling",
+    "tags": [
+      "等待队列",
+      "waitqueue",
+      "I/O",
+      "事件"
+    ],
+    "svg": "assets/32-waitqueue.svg?v=3",
+    "png": "assets/32-waitqueue.png?v=3",
+    "native": "assets/32-waitqueue.excalidraw?v=3"
+  },
+  {
+    "id": "33-frequency-levels",
+    "title": "频率档位",
+    "description": "以阶梯和拨杆表示可选择的频率档位；可用档位及选择方式依平台而异。",
+    "category": "frequency",
+    "tags": [
+      "频率",
+      "档位",
+      "DVFS",
+      "levels"
+    ],
+    "svg": "assets/33-frequency-levels.svg?v=3",
+    "png": "assets/33-frequency-levels.png?v=3",
+    "native": "assets/33-frequency-levels.excalidraw?v=3"
+  },
+  {
+    "id": "34-frequency-cap",
+    "title": "频率上限",
+    "description": "横线表示频率上限；实际可用频率和限制的作用范围取决于平台与配置。",
+    "category": "frequency",
+    "tags": [
+      "频率",
+      "上限",
+      "cap",
+      "限频"
+    ],
+    "svg": "assets/34-frequency-cap.svg?v=3",
+    "png": "assets/34-frequency-cap.png?v=3",
+    "native": "assets/34-frequency-cap.excalidraw?v=3"
+  },
+  {
+    "id": "35-frequency-domain",
+    "title": "共享调频域",
+    "description": "虚线包围共享调频策略的 CPU；调频域依平台而异，共享策略不保证各核心实际频率完全一致。",
+    "category": "frequency",
+    "tags": [
+      "共享",
+      "调频域",
+      "policy",
+      "domain"
+    ],
+    "svg": "assets/35-frequency-domain.svg?v=3",
+    "png": "assets/35-frequency-domain.png?v=3",
+    "native": "assets/35-frequency-domain.excalidraw?v=3"
+  },
+  {
+    "id": "36-thermal-throttle",
+    "title": "热限频",
+    "description": "温度升高时平台可能限制 CPU 频率或性能；触发条件和具体控制方式因平台而异。",
+    "category": "frequency",
+    "tags": [
+      "热限频",
+      "thermal",
+      "温度",
+      "throttle"
+    ],
+    "svg": "assets/36-thermal-throttle.svg?v=3",
+    "png": "assets/36-thermal-throttle.png?v=3",
+    "native": "assets/36-thermal-throttle.excalidraw?v=3"
   }
 ]

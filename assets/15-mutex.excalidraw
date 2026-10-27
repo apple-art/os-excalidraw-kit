@@ -1,22 +1,22 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "http://127.0.0.1:8772",
+  "source": "http://127.0.0.1:8775",
   "elements": [
     {
       "id": "15-mutex-1",
       "type": "line",
       "x": 118,
-      "y": 117,
-      "width": 100,
-      "height": 0,
+      "y": 119,
+      "width": 106,
+      "height": 87,
       "angle": 0,
-      "strokeColor": "#29323c",
+      "strokeColor": "#34323e",
       "backgroundColor": "transparent",
-      "fillStyle": "solid",
+      "fillStyle": "hachure",
       "strokeWidth": 3,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "15-mutex-component"
@@ -28,10 +28,10 @@
       },
       "seed": 1071,
       "version": 2,
-      "versionNonce": 1023477855,
+      "versionNonce": 2111748480,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200528,
+      "updated": 1793118046031,
       "link": null,
       "locked": false,
       "points": [
@@ -41,42 +41,42 @@
         ],
         [
           0,
-          -31
+          -32
         ],
         [
-          3,
-          -55
+          4,
+          -57
         ],
         [
-          13,
-          -72
+          14,
+          -73
         ],
         [
-          31,
-          -83
+          32,
+          -84
         ],
         [
           53,
-          -86
+          -87
         ],
         [
-          75,
-          -82
+          74,
+          -83
         ],
         [
-          93,
-          -70
+          91,
+          -71
         ],
         [
-          103,
-          -52
-        ],
-        [
-          106,
-          -30
+          102,
+          -53
         ],
         [
           106,
+          -31
+        ],
+        [
+          105,
           0
         ]
       ],
@@ -88,18 +88,18 @@
     },
     {
       "id": "15-mutex-2",
-      "type": "rectangle",
-      "x": 91,
-      "y": 113,
-      "width": 160,
-      "height": 124,
+      "type": "line",
+      "x": 134,
+      "y": 116,
+      "width": 71,
+      "height": 64,
       "angle": 0,
-      "strokeColor": "#d16b23",
-      "backgroundColor": "#fff0df",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.6,
       "strokeStyle": "solid",
-      "roughness": 1,
+      "roughness": 2,
       "opacity": 100,
       "groupIds": [
         "15-mutex-component"
@@ -107,74 +107,14 @@
       "frameId": null,
       "index": "a1",
       "roundness": {
-        "type": 3
+        "type": 2
       },
       "seed": 1142,
       "version": 2,
-      "versionNonce": 1438216465,
+      "versionNonce": 1604558464,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1793032200528,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "15-mutex-3",
-      "type": "ellipse",
-      "x": 158,
-      "y": 144,
-      "width": 26,
-      "height": 26,
-      "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "#ffffff",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [
-        "15-mutex-component"
-      ],
-      "frameId": null,
-      "index": "a2",
-      "roundness": null,
-      "seed": 1213,
-      "version": 2,
-      "versionNonce": 295609471,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1793032200528,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "15-mutex-4",
-      "type": "line",
-      "x": 171,
-      "y": 170,
-      "width": 100,
-      "height": 0,
-      "angle": 0,
-      "strokeColor": "#29323c",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 4,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [
-        "15-mutex-component"
-      ],
-      "frameId": null,
-      "index": "a3",
-      "roundness": null,
-      "seed": 1284,
-      "version": 2,
-      "versionNonce": 1483417329,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1793032200528,
+      "updated": 1793118046031,
       "link": null,
       "locked": false,
       "points": [
@@ -184,6 +124,211 @@
         ],
         [
           0,
+          -28
+        ],
+        [
+          5,
+          -49
+        ],
+        [
+          17,
+          -60
+        ],
+        [
+          36,
+          -64
+        ],
+        [
+          54,
+          -59
+        ],
+        [
+          65,
+          -47
+        ],
+        [
+          71,
+          -28
+        ],
+        [
+          71,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "15-mutex-3",
+      "type": "line",
+      "x": 92,
+      "y": 113,
+      "width": 162,
+      "height": 124,
+      "angle": 0,
+      "strokeColor": "#c66c38",
+      "backgroundColor": "#ffead2",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 1213,
+      "version": 2,
+      "versionNonce": 348883328,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046031,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          158,
+          3
+        ],
+        [
+          161,
+          122
+        ],
+        [
+          -1,
+          124
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "15-mutex-4",
+      "type": "line",
+      "x": 104,
+      "y": 126,
+      "width": 135,
+      "height": 2,
+      "angle": 0,
+      "strokeColor": "#c66c38",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1.4,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1284,
+      "version": 2,
+      "versionNonce": 380358272,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046031,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          135,
+          2
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "15-mutex-5",
+      "type": "ellipse",
+      "x": 158,
+      "y": 147,
+      "width": 26,
+      "height": 26,
+      "angle": 0,
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 1355,
+      "version": 2,
+      "versionNonce": 1436440960,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046031,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "15-mutex-6",
+      "type": "line",
+      "x": 171,
+      "y": 172,
+      "width": 1,
+      "height": 29,
+      "angle": 0,
+      "strokeColor": "#34323e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "groupIds": [
+        "15-mutex-component"
+      ],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1426,
+      "version": 2,
+      "versionNonce": 489553536,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793118046031,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -1,
           29
         ]
       ],
@@ -195,8 +340,7 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }
